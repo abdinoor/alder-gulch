@@ -1,0 +1,16 @@
+schema_version: 1
+project_name: "Alder Gulch"
+approval_mode: "review-then-apply"
+manuscript_dir: "manuscript"
+scene_index: "planning/scene-index.yaml"
+story_bible: "canon/story-bible.md"
+timeline: "canon/timeline.yaml"
+characters_dir: "canon/characters"
+style_guide: "canon/style-and-voice.md"
+evidence_ledger: "research/evidence-ledger.md"
+invention_register: "research/invention-register.md"
+author_decisions: "editorial/author-decisions.md"
+revision_log: "editorial/revision-log.md"
+intake_pending: "intake/pending"
+intake_processed: "intake/processed"
+

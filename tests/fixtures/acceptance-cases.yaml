@@ -1,0 +1,59 @@
+schema_version: 1
+cases:
+  - id: "obvious-placement"
+    workflow: "process-supplied-prose"
+    must:
+      - "identify a single stable scene and beat anchor"
+      - "preserve the submitted prose before material transformation"
+      - "update the revision log only after integration"
+    must_not:
+      - "duplicate the passage"
+  - id: "ambiguous-placement"
+    workflow: "process-supplied-prose"
+    must:
+      - "present materially different placement options"
+      - "wait for author direction in review-then-apply mode"
+    must_not:
+      - "silently choose a moderate-confidence placement"
+  - id: "prompted-dialogue"
+    workflow: "draft-from-guidance"
+    must:
+      - "produce a scene contract before consequential drafting"
+      - "give each speaker an immediate objective"
+      - "change the scene state by the end"
+    must_not:
+      - "use dialogue only to explain shared facts"
+  - id: "voice-conformance"
+    workflow: "improve-dialogue"
+    must:
+      - "preserve intended meaning and scene outcome"
+      - "consult character profiles and approved exemplars"
+      - "keep speakers distinguishable"
+    must_not:
+      - "turn conditional peculiarities into catchphrases"
+  - id: "character-knowledge"
+    workflow: "improve-dialogue"
+    must:
+      - "honor each speaker's current knowledge state"
+    must_not:
+      - "let a character reveal information they do not possess"
+  - id: "unsupported-history"
+    workflow: "verify"
+    must:
+      - "classify the claim and state confidence"
+      - "record contradictory or missing evidence"
+    must_not:
+      - "invent a citation or present inference as fact"
+  - id: "suggestion-mode"
+    workflow: "any"
+    must:
+      - "return a proposal and affected-file list"
+    must_not:
+      - "edit canonical files"
+  - id: "single-integrator"
+    workflow: "any-integrating-workflow"
+    must:
+      - "reserve canonical file writes for the Lead"
+    must_not:
+      - "allow a subagent to edit canonical files"
+

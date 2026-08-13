@@ -1,0 +1,29 @@
+# *Alder Gulch*
+
+## A Narrative Nonfiction Pitch
+
+In December 1863, in Nevada City, a remote gold camp in Montana's Alder Gulch, the people put George Ives on trial for the murder of a young immigrant named Nicholas Tiebolt. They had no courthouse, so they made one in the street. A wagon became the judge's bench. The jury gathered around a fire against the cold. Lawyers and witnesses stood on a soapbox so that a vast crowd could see them. In the street beyond the improvised court, hundreds of men watched with firearms close at hand.
+
+The trial proceedings would be just as recognizable today. Ives had defenders. Witnesses were examined. Evidence was contested. A jury was asked to decide whether the prosecution had proved that Ives was a murderer. For three days, an isolated mining community enacted the forms of law with remarkable seriousness.
+
+That is where the familiar version of the story usually begins and ends: Ives was convicted, hanged, and remembered as the road agent whose trial inspired the Montana Vigilantes. *Alder Gulch* tells the larger and more unsettling story. While the trial was constructed in public, a darker form of justice was being born in private. The trial of one man shook the foundations of a fledgling community to its core.
+
+The question before the jury was whether George Ives had murdered Nicholas Tiebolt. The question spreading through the crowd was whether the community could survive an acquittal.
+
+In Alder Gulch, due process had none of the institutions that make its outcomes bearable. There were no reliable police, secure homes, or possibility of anonymity. There was no safe distance between an accused man and those who testified against him. If Ives were found not guilty, he would walk free among the witnesses, jurors, lawyers, and judge, all returning to the same roads and the same handful of settlements. A fair trial did not remove danger. It exposed nearly everyone who took part in it.
+
+This is the dramatic center of *Alder Gulch*: the trial frightened the community not because it was failing, but because it was working. The defense could create reasonable doubt. The jury could acquit. The people had agreed to accept a verdict that the institutions around them might be powerless to enforce or survive.
+
+Ives was convicted and hanged on December 21. His death resolved the charge against him, but not the crisis revealed by his trial. Within days, prominent citizens organized a Vigilance Committee. Lawyers, merchants, miners, and businessmen gave it officers, oaths, companies, and rules. They were not rejecting institutions in favor of chaos; they were building an institution they believed could protect them. But in doing so, they changed the question on which a man's life depended. The miners' court had asked: *Can this crime be proved?* The people increasingly asked: *Can we risk leaving this man alive?* Fear transformed uncertainty into collective conviction.
+
+The result was a campaign against suspected road agents that culminated in the execution of Sheriff Henry Plummer and other alleged members of a criminal network whose true extent remains disputed. The roads grew quieter. The men responsible became civic leaders. Their actions calcified into a founding story about courageous citizens imposing order where government had failed. Yet the certainty of that story rests heavily on accounts written by participants and defenders of the movement.
+
+*Alder Gulch* is narrative nonfiction about how ordinary people build justice before they possess a functioning state and what happens when they discover that justice may be incapable of protecting them. It treats the Ives trial and the Vigilance Committee not as a simple sequence of cause and effect, but as two competing systems born from the same emergency. One was public, adversarial, and vulnerable to doubt. The other was secretive, collective, and designed to act against danger before guilt could be established in court. The first honored the restraints of civilization but could not guarantee security. The second produced security by discarding those constraints.
+
+The book unfolds across the winter landscape of the northern Rockies, where extraordinary natural grandeur stood against an almost total absence of institutional protection. It opens with the atmosphere of fear along the roads, Tiebolt's death, and then narrows in on the three-day trial. From there, the public proceeding and the private judgment of due process run alongside one another until Ives's execution. The second half follows the construction of the Vigilance Committee, its pursuit of suspected road agents, the hanging of Plummer, and the conversion of disputed events into Montana's founding mythology.
+
+The narrative will use the techniques of a novel—scene, character, suspense, parallel action—under the discipline of the historical record. It will distinguish documented fact from recollection, inference, and later legend, preserving uncertainty instead of manufacturing resolution. The vigilantes will appear neither as uncomplicated heroes nor as simple murderers. Their reasoning must become persuasive before its consequences become terrifying. Wilbur Fisk Sanders, the young prosecutor at the Ives trial and a central figure in the vigilance movement, embodies the book's contradiction: a lawyer who demonstrated that due process could work, then confronted a world in which there was almost nothing behind it.
+
+At once a frontier crime story, a courtroom drama, and an inquiry into the origins of state power, *Alder Gulch* asks a question with enduring force: What do frightened people owe to justice when justice cannot keep them safe?
+
+For three days, Nevada City built a courtroom in the street and agreed to submit itself to a verdict. Then it built something else.

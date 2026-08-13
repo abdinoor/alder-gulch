@@ -1,0 +1,16 @@
+target_scene: null
+placement: null
+length_words: null
+pov: null
+participants: []
+immediate_situation: null
+character_goals: {}
+conflict: null
+subtext: null
+required_information: []
+turn: null
+exit_state: null
+must_not_reveal: []
+continuity_constraints: []
+research_constraints: []
+
