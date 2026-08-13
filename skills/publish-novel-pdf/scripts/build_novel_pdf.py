@@ -14,6 +14,7 @@ from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import inch
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.colors import black
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import BaseDocTemplate, Flowable, Frame, PageBreak, PageTemplate, Paragraph, Spacer
@@ -25,6 +26,7 @@ DEFAULTS = {
     "author": "",
     "edition": "Reading Copy",
     "output_filename": "novel-reading-copy.pdf",
+    "cover_image": "",
     "back_matter_file": "",
     "back_matter_title": "",
     "trim_width_in": 6.0,
@@ -133,18 +135,28 @@ def parse_scene(path: Path) -> tuple[str | None, list[tuple[str, str]]]:
 
     for line in text.splitlines():
         stripped = line.strip()
-        if not stripped:
+        if re.fullmatch(r"<!--.*?-->", stripped):
+            flush()
+        elif not stripped:
             flush()
         elif re.fullmatch(r"(?:\*\s*){3}|\*{3}|-{3,}", stripped):
             flush(); blocks.append(("break", "* * *"))
         elif stripped.startswith("# "):
             flush()
+            heading = stripped[2:].strip()
+            if re.fullmatch(r"chapter(?:\s+(?:\d+|[ivxlcdm]+|one|two|three|four|five|six|seven|eight|nine|ten))?", heading, re.I):
+                continue
             if chapter_title is None:
-                chapter_title = stripped[2:].strip()
+                chapter_title = heading
             else:
-                blocks.append(("subhead", stripped[2:].strip()))
+                blocks.append(("subhead", heading))
         elif re.match(r"^#{2,6}\s+", stripped):
-            flush(); blocks.append(("subhead", re.sub(r"^#{2,6}\s+", "", stripped)))
+            flush()
+            heading = re.sub(r"^#{2,6}\s+", "", stripped)
+            if chapter_title is None:
+                chapter_title = heading
+            else:
+                blocks.append(("subhead", heading))
         else:
             current.append(stripped)
     flush()
@@ -176,6 +188,21 @@ class BackMatterMarker(Flowable):
         self.canv._novel_back_matter = True
 
 
+class CoverImage(Flowable):
+    def __init__(self, path: Path, width: float, height: float):
+        super().__init__()
+        self.path = path
+        self.width = width
+        self.height = height
+
+    def wrap(self, available_width, available_height):
+        return self.width, self.height
+
+    def draw(self):
+        self.canv.drawImage(str(self.path), 0, 0, width=self.width, height=self.height,
+                            preserveAspectRatio=False, mask="auto")
+
+
 class NovelDocTemplate(BaseDocTemplate):
     def __init__(self, filename: str, cfg: dict):
         self.cfg = cfg
@@ -187,16 +214,23 @@ class NovelDocTemplate(BaseDocTemplate):
         top, bottom = float(cfg["top_margin_in"]) * inch, float(cfg["bottom_margin_in"]) * inch
         odd = Frame(inner, bottom, width-inner-outer, height-top-bottom, id="odd")
         even = Frame(outer, bottom, width-inner-outer, height-top-bottom, id="even")
-        self.addPageTemplates([
+        templates = []
+        if cfg.get("_cover_path"):
+            cover = Frame(0, 0, width, height, id="cover", leftPadding=0, rightPadding=0,
+                          topPadding=0, bottomPadding=0)
+            templates.append(PageTemplate(id="cover", frames=[cover], autoNextPageTemplate="even"))
+        templates += [
             PageTemplate(id="odd", frames=[odd], onPageEnd=self.decorate, autoNextPageTemplate="even"),
             PageTemplate(id="even", frames=[even], onPageEnd=self.decorate, autoNextPageTemplate="odd"),
-        ])
+        ]
+        self.addPageTemplates(templates)
 
     def decorate(self, canvas, doc):
-        if doc.page <= 1 or getattr(canvas, "_novel_back_matter", False):
+        front_pages = 2 if self.cfg.get("_cover_path") else 1
+        if doc.page <= front_pages or getattr(canvas, "_novel_back_matter", False):
             return
         cfg, width, height = self.cfg, *self.pagesize
-        body_page = doc.page - 1
+        body_page = doc.page - front_pages
         canvas.saveState()
         canvas.setFillColor(black)
         canvas.setFont("Novel-Regular", 7.5)
@@ -219,6 +253,29 @@ def register_fonts(cfg: dict):
         pdfmetrics.registerFont(TTFont(name, str(path)))
     pdfmetrics.registerFontFamily("Novel", normal="Novel-Regular", bold="Novel-Bold",
                                   italic="Novel-Italic", boldItalic="Novel-BoldItalic")
+
+
+def resolve_cover(project: Path, cfg: dict, warnings: list[str]) -> Path | None:
+    value = str(cfg.get("cover_image", "")).strip()
+    if not value:
+        return None
+    path = (project / value).resolve()
+    if not path.is_file():
+        raise FileNotFoundError(f"cover image not found: {path}")
+    reader = ImageReader(str(path))
+    pixel_width, pixel_height = reader.getSize()
+    trim_ratio = float(cfg["trim_width_in"]) / float(cfg["trim_height_in"])
+    image_ratio = pixel_width / pixel_height
+    if abs(image_ratio - trim_ratio) / trim_ratio > 0.01:
+        raise ValueError(
+            f"cover aspect ratio {pixel_width}:{pixel_height} does not match "
+            f"trim size {cfg['trim_width_in']}:{cfg['trim_height_in']}"
+        )
+    effective_dpi = min(pixel_width / float(cfg["trim_width_in"]),
+                        pixel_height / float(cfg["trim_height_in"]))
+    if effective_dpi < 150:
+        warnings.append(f"cover image resolution is only {effective_dpi:.0f} DPI at trim size")
+    return path
 
 
 def styles(cfg: dict):
@@ -256,12 +313,18 @@ def build(project: Path, output: Path, allow_empty: bool) -> tuple[int, int, lis
     scenes, warnings = discover_scenes(project)
     if not scenes and not allow_empty:
         raise RuntimeError("no manuscript scene files found; use --allow-empty only to test the pipeline")
+    cover_path = resolve_cover(project, cfg, warnings)
+    cfg["_cover_path"] = str(cover_path) if cover_path else ""
     register_fonts(cfg); style = styles(cfg)
     chapters: OrderedDict[int, list[Path]] = OrderedDict()
     for i, scene in enumerate(scenes, 1):
         chapters.setdefault(chapter_number(scene, i), []).append(scene)
 
-    story = [Spacer(1, 1.65*inch), Paragraph(inline_markup(str(cfg["title"])), style["title"])]
+    story = []
+    if cover_path:
+        story += [CoverImage(cover_path, float(cfg["trim_width_in"]) * inch,
+                             float(cfg["trim_height_in"]) * inch), PageBreak()]
+    story += [Spacer(1, 1.65*inch), Paragraph(inline_markup(str(cfg["title"])), style["title"])]
     if cfg["subtitle"]:
         story += [Paragraph(inline_markup(str(cfg["subtitle"])), style["subtitle"]), Spacer(1, 0.7*inch)]
     else:

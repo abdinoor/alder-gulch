@@ -6,6 +6,7 @@ Supported keys:
 
 - `title`, `subtitle`, `author`, `edition`
 - `output_filename`
+- `cover_image`: project-relative raster image path; when set, the image becomes a full-bleed first page before the title page
 - `back_matter_file`, `back_matter_title`
 - `trim_width_in`, `trim_height_in`
 - `font_regular`, `font_italic`, `font_bold`, `font_bold_italic`
@@ -13,6 +14,8 @@ Supported keys:
 - `inner_margin_in`, `outer_margin_in`, `top_margin_in`, `bottom_margin_in`
 - `chapter_label` (`Chapter` by default)
 - `running_heads`, `page_numbers`
+
+The cover image must match the configured trim aspect ratio within one percent. For a 6 × 9-inch trim, use a 2:3 image. The builder rejects a mismatched aspect ratio rather than cropping or distorting the artwork and warns when effective resolution is below 150 DPI. Use 300 DPI for print production when possible.
 
 Scene discovery:
 
