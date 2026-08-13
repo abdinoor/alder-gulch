@@ -16,5 +16,5 @@ To be established from approved manuscript exemplars.
 
 ## House style
 
-To be completed as editorial decisions are made.
-
+- Use one-sentence paragraphs selectively to introduce a new beat or mark a genuine change in scene state.
+- Within a beat, default to developed paragraphs. Avoid a repeated long-paragraph / one-sentence-paragraph cadence that gives every rhetorical conclusion equal typographic emphasis.

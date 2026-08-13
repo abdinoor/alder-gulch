@@ -12,7 +12,29 @@ Then it built something else.
 Tiebolt rides hard across open country. Ives follows. Gold, distance, fear.
 
 ### Chapter 2 — The Gulch
-The physical magnificence of the place against the almost total absence of institutional protection.
+From Henry Edgar and the May 1863 discovery through the December 1863 narrative present, expand the gulch through lived scenes and inhabitants, making the existing Chapter I exposition more concrete.
+
+**Beat 1 — The consequential pan:** In May 1863, Henry Edgar and the returning prospectors stop beside an unremarkable creek. A pan of dirt reveals enough gold to give the place a new meaning.
+
+**Beat 2 — News outruns secrecy:** The discoverers go to Bannack for supplies and attempt to protect their claims, but rumor escapes. Edgar returns toward the gulch with a growing stampede behind him.
+
+**Beat 3 — Claims before community:** The newcomers divide the creek, organize a mining district, and make rules for claims and water before they have built a town. Collective authority first appears where private ownership requires mutual recognition.
+
+**Beat 4 — Fourteen-mile City:** Tents, brush shelters, cabins, sluices, animals, fires, and named camps spread along the gulch. Edgar watches the landscape of the discovery disappear beneath the work the discovery summoned.
+
+**Beat 5 — A population borrowed from elsewhere:** Experienced miners and successive newcomers arrive from Bannack and the wider western mining migrations. They bring skills, habits, rivalries, and expectations from other places but possess little common attachment to this one.
+
+**Beat 6 — The Sheehans arrive:** James Sheehan brings freight into the new camp; Anne, Mary, baby Kate, and Ellen follow. Mary stakes an imaginary claim, giving a child's scale to the fever that has seized the adults.
+
+**Beat 7 — The instant economy:** Gold creates urgent demand for freight, food, lumber, lodging, tools, stables, saloons, and labor. The Sheehan household begins taking boarders, placing domestic work, commerce, strangers, and family life under one roof.
+
+**Beat 8 — Local rules, limited consent:** The camps can regulate claims and settle immediate disputes, but authority remains local and conditional. A man may accept rules made beside his claim without conceding that an officer or ambitious civic figure miles away has the right—or the power—to govern him.
+
+**Beat 9 — The beginnings of permanence:** Women, children, worship, schooling, and household routines complicate the image of a temporary work camp. Thomas Dimsdale teaches children in a cabin as the extraction site begins acquiring the habits of a community.
+
+**Beat 10 — December 1863:** By the narrative present, the gulch can trade, teach, worship, record property, and improvise local government. It still cannot reliably project authority across fourteen miles or protect the people and portable wealth moving between its settlements.
+
+**Exit toward Chapter 3:** The roads are the circulatory system of the instant community and its point of greatest exposure. Everything the gulch needs must travel over them; so does nearly everything worth stealing.
 
 ### Chapter 3 — The Roads
 Robberies, disappearances, stolen gold, men refusing to travel alone.

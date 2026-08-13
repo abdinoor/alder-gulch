@@ -196,7 +196,7 @@ novel/
 ├── planning/
 │   ├── premise.md
 │   ├── outline.md
-│   ├── character-arcs.md
+│   ├── cast.md
 │   └── scene-index.yaml
 ├── canon/
 │   ├── story-bible.md
