@@ -1,0 +1,23 @@
+title: "Alder Gulch"
+subtitle: ""
+author: ""
+edition: "Reading Copy"
+output_filename: "alder-gulch-reading-copy.pdf"
+
+trim_width_in: 6
+trim_height_in: 9
+body_font_size: 10.5
+leading: 14.2
+inner_margin_in: 0.8
+outer_margin_in: 0.65
+top_margin_in: 0.7
+bottom_margin_in: 0.7
+
+font_regular: "/System/Library/Fonts/Supplemental/Georgia.ttf"
+font_italic: "/System/Library/Fonts/Supplemental/Georgia Italic.ttf"
+font_bold: "/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
+font_bold_italic: "/System/Library/Fonts/Supplemental/Georgia Bold Italic.ttf"
+
+chapter_label: "Chapter"
+running_heads: true
+page_numbers: true

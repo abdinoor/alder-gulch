@@ -3,4 +3,5 @@
 *.pyc
 __pycache__/
 .novel/context-packets/
-
+tmp/
+output/pdf/

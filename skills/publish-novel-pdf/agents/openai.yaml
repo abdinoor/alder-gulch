@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publish Novel PDF"
+  short_description: "Typeset the current novel as a polished PDF"
+  default_prompt: "Use $publish-novel-pdf to typeset the current novel into a polished, verified PDF."
