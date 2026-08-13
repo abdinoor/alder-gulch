@@ -3,6 +3,8 @@ subtitle: ""
 author: ""
 edition: "Reading Copy"
 output_filename: "alder-gulch-reading-copy.pdf"
+back_matter_file: "back-cover-blurb.md"
+back_matter_title: ""
 
 trim_width_in: 6
 trim_height_in: 9

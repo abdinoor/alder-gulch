@@ -1,3 +1,19 @@
 schema_version: 1
-scenes: []
-
+scenes:
+  - id: "01.01"
+    file: "manuscript/01.01-the-chase.md"
+    title: "The Chase"
+    date: "December 1863"
+    pov: "Documentary narrator, limited around Nicholas Tiebolt"
+    location: "Alder Gulch and the road near Dempsey's ranch"
+    purpose: "Establish the frontier setting and institutional void, follow Tiebolt's pursuit and incapacitation, and create the demand for justice"
+    status: "draft"
+    participants:
+      - "Nicholas Tiebolt"
+      - "George Ives"
+    entry_state: "Alder Gulch is rich, newly settled, and beyond effective territorial protection; Tiebolt is returning for mules with gold on his person"
+    turn: "An unidentified pursuit resolves into George Ives overtaking Tiebolt"
+    exit_state: "Tiebolt is barely alive, his gold is gone, and the narrative has established a need for justice without revealing the killing's gruesome details"
+    must_not_reveal:
+      - "The detailed mechanics and injuries associated with Tiebolt's death before the trial proceedings"
+      - "The alleged road-agent network as settled historical fact"

@@ -6,6 +6,7 @@ Supported keys:
 
 - `title`, `subtitle`, `author`, `edition`
 - `output_filename`
+- `back_matter_file`, `back_matter_title`
 - `trim_width_in`, `trim_height_in`
 - `font_regular`, `font_italic`, `font_bold`, `font_bold_italic`
 - `body_font_size`, `leading`
@@ -21,3 +22,5 @@ Scene discovery:
 4. Group `01.01-opening.md`, `01.02-arrival.md`, and similar names as Chapter 1. A top-level `01-opening.md` becomes Chapter 1 on its own.
 
 Markdown handling is intentionally conservative. A single `#` heading can supply a chapter title; `##` and deeper headings become in-text subheads. Lines containing only `***`, `---`, or `* * *` become centered scene breaks. YAML frontmatter is omitted.
+
+When `back_matter_file` names a project-relative Markdown file, the builder places its body on a new final page without counting it as a scene or chapter. The file's first-level heading is omitted. Set `back_matter_title` to add an optional displayed heading; leave it empty for unheaded back matter such as back-cover copy.

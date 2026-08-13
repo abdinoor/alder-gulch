@@ -25,6 +25,8 @@ DEFAULTS = {
     "author": "",
     "edition": "Reading Copy",
     "output_filename": "novel-reading-copy.pdf",
+    "back_matter_file": "",
+    "back_matter_title": "",
     "trim_width_in": 6.0,
     "trim_height_in": 9.0,
     "body_font_size": 10.5,
@@ -166,6 +168,14 @@ class ChapterMarker(Flowable):
         self.canv._novel_chapter_open = True
 
 
+class BackMatterMarker(Flowable):
+    def __init__(self):
+        super().__init__(); self.width = self.height = 0
+
+    def draw(self):
+        self.canv._novel_back_matter = True
+
+
 class NovelDocTemplate(BaseDocTemplate):
     def __init__(self, filename: str, cfg: dict):
         self.cfg = cfg
@@ -183,7 +193,7 @@ class NovelDocTemplate(BaseDocTemplate):
         ])
 
     def decorate(self, canvas, doc):
-        if doc.page <= 1:
+        if doc.page <= 1 or getattr(canvas, "_novel_back_matter", False):
             return
         cfg, width, height = self.cfg, *self.pagesize
         body_page = doc.page - 1
@@ -235,6 +245,9 @@ def styles(cfg: dict):
                                   leading=leading, alignment=TA_CENTER, spaceBefore=leading, spaceAfter=leading/2),
         "break": ParagraphStyle("Break", parent=base["Normal"], fontName="Novel-Regular", fontSize=9,
                                 leading=leading*1.5, alignment=TA_CENTER, spaceBefore=leading/2, spaceAfter=leading/2),
+        "back_matter": ParagraphStyle("BackMatter", parent=base["BodyText"], fontName="Novel-Regular",
+                                      fontSize=size, leading=leading, alignment=0, firstLineIndent=0,
+                                      spaceAfter=leading, allowWidows=0, allowOrphans=0),
     }
 
 
@@ -277,6 +290,26 @@ def build(project: Path, output: Path, allow_empty: bool) -> tuple[int, int, lis
                     story.append(Paragraph(inline_markup(content), style["subhead"])); first = True
                 else:
                     story.append(Paragraph("* * *", style["break"])); first = True
+
+    back_matter_file = str(cfg.get("back_matter_file", "")).strip()
+    if back_matter_file:
+        back_matter_path = (project / back_matter_file).resolve()
+        if not back_matter_path.is_file():
+            raise FileNotFoundError(f"back matter file not found: {back_matter_path}")
+        _, blocks = parse_scene(back_matter_path)
+        if chapters:
+            story.append(PageBreak())
+        story += [BackMatterMarker(), Spacer(1, 1.1*inch)]
+        back_matter_title = str(cfg.get("back_matter_title", "")).strip()
+        if back_matter_title:
+            story.append(Paragraph(inline_markup(back_matter_title), style["chapter"]))
+        for kind, content in blocks:
+            if kind == "paragraph":
+                story.append(Paragraph(inline_markup(content), style["back_matter"]))
+            elif kind == "subhead":
+                story.append(Paragraph(inline_markup(content), style["subhead"]))
+            else:
+                story.append(Paragraph("* * *", style["break"]))
 
     output.parent.mkdir(parents=True, exist_ok=True)
     NovelDocTemplate(str(output), cfg).build(story)

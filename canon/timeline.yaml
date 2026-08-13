@@ -1,3 +1,14 @@
 schema_version: 1
-events: []
-
+events:
+  - id: "1863-05-26-alder-gulch-discovery"
+    date: "1863-05-26"
+    event: "Six prospectors discover placer gold in Alder Gulch, prompting rapid settlement along the gulch."
+    classification: "documented fact"
+  - id: "1863-12-tiebolt-errand-and-disappearance"
+    date: "December 1863"
+    event: "Nicholas Tiebolt carries payment received for a span of mules toward Dempsey's ranch to retrieve the animals and does not return."
+    classification: "documented in early account; exact date and route require further verification"
+  - id: "1863-12-opening-pursuit"
+    date: "December 1863"
+    event: "The approved narrative reconstructs George Ives pursuing and overtaking Tiebolt, who is left barely alive; the exact chase and incapacitation are authorial reconstruction."
+    classification: "authorial reconstruction based on later accusation and physical evidence"
