@@ -1,0 +1,12 @@
+schema_version: 1
+scenes:
+  - id: "01.01"
+    file: "tests/fixtures/sample-project/manuscript/ch-01/01.01-warning.md"
+    title: "The Warning"
+    pov: "Elias"
+    purpose: "Deliver news of the armed supporters"
+  - id: "01.02"
+    file: "tests/fixtures/sample-project/manuscript/ch-01/01.02-deliberation.md"
+    title: "The Deliberation"
+    pov: "Elias"
+    purpose: "Force Elias and Bell to weigh legitimacy against resolve"

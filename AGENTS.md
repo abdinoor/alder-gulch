@@ -9,6 +9,7 @@
 ## Required workflow
 
 - Use the `novel-writing-team` skill for novel research, verification, story editing, drafting, dialogue editing, continuity work, placement, or manuscript integration.
+- Treat `skills/novel-writing-team/` as the version-controlled source of truth for that skill. Use `scripts/install-novel-writing-team.py --check` to confirm the installed personal skill matches it.
 - Identify the smallest sufficient specialist workflow. Do not run all specialists by default.
 - Resolve structural questions before detailed prose polishing.
 - Preserve the author's meaning, voice, and scene outcome unless the request explicitly authorizes changing them.
@@ -40,4 +41,4 @@
 - Maintain characters in `canon/characters/<slug>.md` using `templates/character.md`.
 - Record evidence using `templates/evidence-entry.md` and revisions using `templates/revision-entry.md`.
 - Run the project and scene-index validators after structural or canonical edits.
-
+- Run validators from `skills/novel-writing-team/scripts/` so a fresh checkout is self-contained.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Novel Writing Team"
+  short_description: "Draft, edit, verify, and integrate novel prose"
+  default_prompt: "Use $novel-writing-team to draft or revise this passage and integrate it into my novel."

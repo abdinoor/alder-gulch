@@ -20,7 +20,7 @@ Author
         └── Writer, Prose & Continuity Agent
 ```
 
-The specialists should normally be implemented as repeatable skills. Separate specialist agents are created only when a task is substantial, parallelizable, or benefits from independent judgment.
+The specialist perspectives are implemented as reference protocols within one repeatable orchestration skill. Separate specialist agents are created only when a task is substantial, parallelizable, or benefits from independent judgment.
 
 ## Lead / Managing Agent
 
@@ -215,9 +215,14 @@ novel/
 │   ├── continuity-issues.md
 │   └── revision-log.md
 └── skills/
-    ├── research-verification/
-    ├── story-editor/
-    └── writer-prose-continuity/
+    └── novel-writing-team/
+        ├── SKILL.md
+        ├── references/
+        │   ├── research-verification.md
+        │   ├── story-editor.md
+        │   ├── writer-prose-continuity.md
+        │   └── integration-protocol.md
+        └── scripts/
 ```
 
 The most important durable records are:
@@ -333,15 +338,11 @@ Review should normally be required when a change:
 
 ## Implementation Architecture
 
-### Skills define expertise
+### One orchestration skill defines the workflow
 
-Implement the three specialties as reusable skills:
+Implement the team as one reusable `novel-writing-team` skill. Its concise `SKILL.md` routes requests and owns the end-to-end workflow. Separate reference protocols define Research & Verification, Story Editing, Writer / Prose / Continuity, schemas, and canonical integration.
 
-- `research-verification`
-- `story-editor`
-- `writer-prose-continuity`, with drafting, dialogue, and editing modes
-
-Each skill defines responsibilities, exclusions, required inputs, procedures, output formats, quality checks, handoff conditions, and rules for proposing project-file updates.
+This avoids competing triggers and duplicated handoff rules while retaining three distinct specialist perspectives. The repository copy under `skills/novel-writing-team/` is the source of truth; an installation script synchronizes it to the personal Codex skills directory.
 
 ### Agents provide independent judgment
 
