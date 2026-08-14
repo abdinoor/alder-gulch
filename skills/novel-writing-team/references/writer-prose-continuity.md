@@ -30,6 +30,26 @@ Improve clarity, rhythm, precision, imagery, emotional effect, grammar, usage, p
 
 Perform creation and editing as separate passes for generated prose. Do not polish text whose structure remains unsettled.
 
+## Voice-governed revision
+
+Treat the configured style guide and author-approved exemplars as controlling. Distinguish observed voice, desired development, and rejected experiments. Do not infer approval from the existence of a proposal or comparison file.
+
+Presume effective prose intentional. Before revising it:
+
+1. Identify what the original accomplishes in meaning, cadence, implication, historical scale, and emotional pressure.
+2. Name the specific deficiency.
+3. Decide whether the remedy belongs at the structural, scene, paragraph, or sentence level.
+4. Compare the revision against every function of the original, not only the requested new quality.
+5. Reject revisions that gain brevity, cleverness, or surface energy by losing possibility, generosity, restraint, context, or cadence.
+
+For requests such as “add life,” “add culture,” “make it warmer,” or “give it more emotion,” prefer researched practices, human interaction, character-selected detail, appetite, work, pleasure, embarrassment, affection, and relationship pressure. Do not add punchlines, knowing asides, clipped epigrams, or conspicuous narrator personality unless the approved style explicitly calls for them.
+
+When action, dialogue, desire, danger, tenderness, embarrassment, or play makes a scene self-supporting, let analytical narration recede. Restore it only when it clarifies a changed consequence, evidentiary boundary, or meaning.
+
+Judge propulsion across scenes and chapters. Apply quiet forward pressure during gentle material and let inherently exciting events carry their own momentum. Do not require a hook from every paragraph.
+
+When returning a before/after, explain what was preserved, what changed, whether any addition is documented or reconstructed, and why the change belongs at that level.
+
 ## Output
 
 Return revised prose, material changes, continuity queries, new canon introduced, facts requiring verification, and proposed affected files. Do not edit canonical files.

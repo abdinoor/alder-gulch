@@ -29,3 +29,18 @@ Record consequential decisions with date, issue, decision, rationale, and affect
 - **Decision:** Chapter II opens with Henry Edgar and the May 1863 discovery of gold in Alder Gulch, then advances through the rush, settlement, and emerging community to the December 1863 narrative present. Nathaniel Pitt Langford remains deferred and is not introduced through the discovery sequence.
 - **Rationale:** Edgar provides a documented participant thread from the consequential pan to the human transformation of the gulch, while the May-to-December frame lets the chapter dramatize a place becoming a provisional society within months.
 - **Affected files:** `structure-outline.md`, `planning/cast.md`; future Chapter II scene contract and scene index entry.
+
+## 2026-08-13 — Adopt bounded author voiceprint
+
+- **Status:** Superseded later on 2026-08-13 by “Lock narrator voice and supersede experimental voiceprints.”
+- **Issue:** Whether and how to derive novel-writing guidance from an approximately 9,700-word corpus consisting mainly of scholastic exposition rather than fiction.
+- **Decision:** Adopt the corpus's well-supported underlying habits—structure before ornament, concrete instances, contrast and legitimate exception, clear causality, qualified judgment, functional repetition, and plain declarative emphasis—as authorial guidance. Do not treat school-era diction, grammar, transitions, assignment structure, or explanatory cadence as a fictional style to reproduce. Keep narrative distance, imagery, dialogue, interiority, humor, and mature sentence music provisional until supported by creative-writing exemplars.
+- **Rationale:** The corpus reliably shows how the author organizes attention and tests claims even though it cannot establish a complete fiction voice. A bounded profile makes those durable instincts usable without overfitting the novel to scholastic surface features.
+- **Affected files:** `canon/style-and-voice.md`, `editorial/proposals/author-voiceprint.proposed.md`, `intake/processed/voiceprint-corpus-2026-08-13/`.
+
+## 2026-08-13 — Lock narrator voice and supersede experimental voiceprints
+
+- **Issue:** Which voice guidance should control the novel after the scholastic author corpus and two narrator-revision experiments produced competing or unsuccessful directions.
+- **Decision:** Adopt the narrator voice defined in `canon/style-and-voice.md`. Preserve the narrator's grave, restrained intelligence and understated irony. Add life through researched culture, human particularity, relationships, physical experience, pleasure, shame, affection, and scene-level development. Reader attachment arises from patience, fairness, humane attention, and proportion—not narrator punchlines or visible cleverness. Preserve strong sentences unless a specific defect is identified, and reject compression that diminishes possibility, historical breadth, generosity, melancholy, or cadence. The prior bounded scholastic author voiceprint and experimental comparison documents are superseded and removed.
+- **Rationale:** Successful tests enriched the Fairweather District and Edgar paragraphs by adding human and cultural context around their strongest existing sentences. Unsuccessful tests replaced understatement with glib compression and narrator performance. The locked voice formalizes the successful method and prevents recurrence of the failed one.
+- **Affected files:** `canon/style-and-voice.md`, `skills/novel-writing-team/SKILL.md`, `skills/novel-writing-team/references/writer-prose-continuity.md`, `tests/acceptance-prompts.md`, `tests/fixtures/acceptance-cases.yaml`; superseded files removed from `editorial/proposals/`.

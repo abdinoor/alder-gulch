@@ -5,7 +5,7 @@ edition: "Reading Copy"
 output_filename: "alder-gulch-reading-copy.pdf"
 cover_image: "Media/alder-gulch-cover-concept.png"
 back_matter_file: "back-cover-blurb.md"
-back_matter_title: ""
+back_matter_title: "About *Alder Gulch*"
 
 trim_width_in: 6
 trim_height_in: 9

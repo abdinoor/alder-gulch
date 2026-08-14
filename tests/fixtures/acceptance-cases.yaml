@@ -31,6 +31,17 @@ cases:
       - "keep speakers distinguishable"
     must_not:
       - "turn conditional peculiarities into catchphrases"
+  - id: "preservation-first-narrator-voice"
+    workflow: "revise-voice-or-add-life"
+    must:
+      - "consult the canonical style guide and approved exemplars"
+      - "identify whether the deficiency is scene-level or sentence-level"
+      - "preserve effective meaning, cadence, implication, and historical scale"
+      - "label reconstructed cultural or emotional detail"
+    must_not:
+      - "replace understated irony with a punchline or clipped epigram"
+      - "compress away counterfactual possibility or generosity"
+      - "manufacture narrator personality instead of adding lived context"
   - id: "character-knowledge"
     workflow: "improve-dialogue"
     must:
@@ -56,4 +67,3 @@ cases:
       - "reserve canonical file writes for the Lead"
     must_not:
       - "allow a subagent to edit canonical files"
-

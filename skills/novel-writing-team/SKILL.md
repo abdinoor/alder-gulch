@@ -19,7 +19,7 @@ Act as the Lead / Managing Agent and sole canonical manuscript integrator. Treat
 
 - For evidence discovery, external facts, historical plausibility, or claim auditing, read [research-verification.md](references/research-verification.md).
 - For structure, placement, scene purpose, character motivation, pacing, arcs, or a drafting contract, read [story-editor.md](references/story-editor.md).
-- For new prose, line editing, dialogue voice, grammar, or continuity, read [writer-prose-continuity.md](references/writer-prose-continuity.md).
+- For new prose, line editing, dialogue voice, grammar, continuity, voice matching, tonal range, or requests for “more life,” read [writer-prose-continuity.md](references/writer-prose-continuity.md).
 - Before any canonical write, read [integration-protocol.md](references/integration-protocol.md).
 - For work orders, context packets, scene contracts, findings, and handoffs, read [schemas.md](references/schemas.md).
 
@@ -51,13 +51,22 @@ Do not delegate integration. Do not run unrelated specialists in parallel when t
 
 ### Draft prose from guidance
 
-1. Retrieve the likely target scene, neighbors, participating character records, relevant arc state, style guidance, and evidence constraints.
+1. Retrieve the likely target scene, neighbors, participating character records, relevant arc state, canonical style guidance, approved exemplars, and evidence constraints.
 2. Create a scene contract. For consequential work, have the Story Editor create or assess it.
 3. Resolve only factual questions that constrain the draft.
 4. Draft against the contract.
 5. Independently review consequential drafts for narrative function.
 6. Revise in prose-and-continuity mode.
 7. Integrate only through the Lead.
+
+### Revise voice or add life
+
+1. Read the canonical style guide and approved exemplars before proposing changes.
+2. Diagnose whether the deficiency is structural, scene-level, paragraph-level, or sentence-level.
+3. Preserve effective prose unless a specific defect is identified.
+4. Add culture, emotion, humor, pleasure, and particularity through researched practices, relationships, perception, and action; do not manufacture narrator personality.
+5. Compare before and after for meaning, cadence, implication, historical scale, and emotional pressure. Reject a revision that becomes smaller, glibber, or more conspicuous.
+6. Follow the configured approval mode before integration.
 
 ### Improve dialogue
 

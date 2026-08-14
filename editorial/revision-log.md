@@ -133,3 +133,42 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Material changes:** Removed the repeated long–short paragraph alternation within Chapter II beats by absorbing internal emphatic isolates into developed paragraphs. Preserved isolation for beat openings and the final transition into Chapter III.
 - **Canon/research files updated:** `canon/style-and-voice.md`
 - **Unresolved questions:** None introduced.
+
+## 2026-08-13 — Confirm Chapter II: The Gulch
+
+- **Operation ID:** integrate-chapter-02-the-gulch-20260813
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author explicitly approved the completed proposal as Chapter II
+- **Target:** `manuscript/02.01-the-gulch.md`
+- **Source intake:** `editorial/proposals/02.01-the-gulch.proposed.md`
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead
+- **Material changes:** Promoted the approved proposal to canonical Chapter II, converted proposal metadata to canonical scene metadata, and preserved the approved beat anchors and prose without further creative revision.
+- **Canon/planning/research files updated:** Added scene `02.01` to `planning/scene-index.yaml`. Existing `canon/timeline.yaml`, `canon/locations.md`, `planning/cast.md`, `research/evidence-ledger.md`, and `research/open-questions.md` already record the chapter's chronology, setting, cast functions, evidence boundaries, and outstanding verification questions; no duplicative entries added.
+- **Validation:** Project validator passed; scene-index validator passed with two scene records; `git diff --check` passed; canonical scene ID `02.01` appears exactly once under `manuscript/`.
+- **Unresolved questions:** Existing source-verification questions concerning the Sheehan recollections, Dimsdale's school chronology, and details of the discovery accounts remain recorded in `research/open-questions.md`; the chapter preserves uncertainty where material.
+
+## 2026-08-13 — Integrate bounded author voiceprint
+
+- **Operation ID:** author-voiceprint-20260813
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author acknowledged the corpus's scholastic limits and requested that its usable traits nevertheless be applied
+- **Target:** `canon/style-and-voice.md`
+- **Source intake:** `intake/processed/voiceprint-corpus-2026-08-13/`; analysis preserved in `editorial/proposals/author-voiceprint.proposed.md`
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead; PDF inspection workflow used for source extraction and visual verification
+- **Material changes:** Established a bounded author voiceprint centered on governing structure, concrete evidence, exceptions, causality, qualified judgment, functional repetition, and declarative emphasis. Added an operational fiction-revision sequence and explicit safeguards against imitating school-era transitions, errors, and explanatory cadence.
+- **Canon/research files updated:** `canon/style-and-voice.md`, `editorial/author-decisions.md`; no research claims introduced
+- **Validation:** Project validator passed; scene-index validator passed with two scene records; `git diff --check` passed; all voiceprint paths resolve to the processed corpus and approved analysis.
+- **Unresolved questions:** Fiction-specific narrative distance, imagery, dialogue compression, interiority, humor, pacing, and mature sentence music require a later creative-writing corpus or approved manuscript exemplars.
+
+## 2026-08-13 — Lock narrator voice and implement preservation-first revision
+
+- **Operation ID:** lock-narrator-voice-20260813
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author explicitly approved the successful Fairweather District and Edgar tests, ordered the voiceprint locked, and authorized removal of alternatives
+- **Target:** `canon/style-and-voice.md`; repository-owned `novel-writing-team` skill
+- **Source intake:** Approved working-session narrator voice and paragraph tests; original scholastic corpus remains preserved under `intake/processed/voiceprint-corpus-2026-08-13/`
+- **Specialists used:** Writer / Prose / Continuity, Integration, and Skill Creator protocols, applied directly by the Lead
+- **Material changes:** Replaced the bounded scholastic author voiceprint with the approved narrator voice; established culture as lived practice, human particularity, focal intimacy, tonal range without narrator performance, chapter-scale propulsion, and preservation-before-enrichment. Added the same preservation-first discipline to the reusable skill and an acceptance case guarding against glib compression. Removed superseded voiceprint proposals and failed comparison artifacts.
+- **Canon/research files updated:** `canon/style-and-voice.md`, `editorial/author-decisions.md`; no research claims or manuscript prose introduced
+- **Validation:** Skill quick validation passed; novel tool smoke tests passed; project and two-record scene index validators passed; acceptance and project YAML parsed; `git diff --check` passed; installed skill matches the repository source; full deterministic implementation verification passed.
+- **Unresolved questions:** Future scene work must identify researched cultural practices appropriate to each character and setting; the approved voice examples remain methodological exemplars and have not been inserted into manuscript prose.
