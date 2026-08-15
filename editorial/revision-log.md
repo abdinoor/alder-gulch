@@ -172,3 +172,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Canon/research files updated:** `canon/style-and-voice.md`, `editorial/author-decisions.md`; no research claims or manuscript prose introduced
 - **Validation:** Skill quick validation passed; novel tool smoke tests passed; project and two-record scene index validators passed; acceptance and project YAML parsed; `git diff --check` passed; installed skill matches the repository source; full deterministic implementation verification passed.
 - **Unresolved questions:** Future scene work must identify researched cultural practices appropriate to each character and setting; the approved voice examples remain methodological exemplars and have not been inserted into manuscript prose.
+
+## 2026-08-14 — Apply locked narrator voice to Chapter 1
+
+- **Operation ID:** chapter-01-narrator-voice-20260814
+- **Approval mode:** review-then-apply; the author approved the complete revised chapter after iterative line review
+- **Target:** `manuscript/01.01-the-chase.md`, scene `01.01`
+- **Source intake:** `editorial/proposals/01.01-the-chase.voiceprint.proposed.md`; no external author submission
+- **Specialists used:** Writer / Prose / Continuity and Story Editor protocols; independent Story Editor review completed before author review
+- **Material changes:** Applied the locked narrator voice while preserving the scene's structure, chronology, reconstruction boundary, participants, and outcome. Consolidated repeated institutional explanation and isolated sentence emphasis; allowed physical pursuit to carry more momentum; reframed Ives's appearance around witness identification; preserved the alleged road-agent network as unstable and disputed; changed jury recruitment from “the street” to “the camps”; and removed the redundant line “Tiebolt did not get away.”
+- **Canon/research files updated:** None. The revision introduces no new canonical event, character knowledge, or historical classification.
+- **Validation:** Canonical manuscript matches the approved replacement; project validator passed; scene-index validator passed with two scene records; `git diff --check` passed; stable scene ID `01.01` remains unique; reading PDF rebuilt with two scenes and two chapters at 6×9-inch trim.
+- **Unresolved questions:** None introduced. Existing questions concerning the exact route, chase mechanics, and organized-road-agent claim remain governed by the evidence ledger and invention register.
