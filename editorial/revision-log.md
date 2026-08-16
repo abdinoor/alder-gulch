@@ -2,6 +2,32 @@
 
 Append one entry per integrated change. Do not record suggestion-only work here.
 
+## 2026-08-16 — Preserve Tiebolt's Colorado-associate research
+
+- **Operation ID:** tiebolt-colorado-associates-20260816
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; after reviewing the research findings, the author explicitly directed that all of them be recorded for future use in the book
+- **Target:** Research dossier, evidence classifications, Tiebolt relationships, Colorado geography, cast planning, and open questions
+- **Source intake:** Working-session research in federal censuses, the 1861 Colorado territorial election, 1862–66 territorial tax assessments, Colorado newspapers, naturalization collections, military indexes, mining directories, and Dimsdale's account; no separate intake item
+- **Specialists used:** Research & Verification and Integration protocols, applied directly by the Lead
+- **Material changes:** Created a detailed Baume–Beidler–Clark dossier; documented Beidler's high-confidence path from Pennsylvania through the Colorado freight corridor toward Bannack; preserved the English-born Baume candidate and the separate Indiana-born Baum collision; recorded the full William Clark candidate set and the Sacramento Flatts retail-dealer lead; distinguished positive findings from negative searches and unresolved identity hypotheses.
+- **Canon/planning/research files updated:** `research/tiebolt-colorado-associates.md`, `research/evidence-ledger.md`, `research/open-questions.md`, `canon/characters/nicholas-tiebolt.md`, `canon/locations.md`, `planning/cast.md`
+- **Validation:** Project validator passed; scene-index validator passed with two unchanged scene records; canonical YAML parsed; `git diff --check` passed; no manuscript or scene-index files were modified.
+- **Unresolved questions:** Independent evidence for Tiebolt or the knife loan in Colorado; definitive identification of Tom Baume and William Clark; separation of the two Thomas Baum/Baume records after 1861; and business or family evidence linking the Colorado candidates to Nevada City, Montana.
+
+## 2026-08-15 — Preserve Tiebolt biography research
+
+- **Operation ID:** tiebolt-biography-research-20260815
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author explicitly directed the project to assume the Colorado premise and then approved updating the appropriate records
+- **Target:** Tiebolt canon, geography, chronology, cast planning, and research records
+- **Source intake:** Working-session research across early histories, New York passenger records, federal censuses, and naturalization-related searches; no separate intake item
+- **Specialists used:** Research & Verification and Integration protocols, applied directly by the Lead
+- **Material changes:** Recorded Washington Gulch around 1861 as an author-approved historical premise; Nevada City as Tiebolt's probable 1863 working base; the Tbalt, Tiebalt, and Thiebalt variants; early descriptions of Tiebolt as a young German or “Dutchman”; his employers' reported trust in his fidelity and sobriety; the travel-only status of Dempsey's ranch, the Pas-sam-a-ri/Stinkingwater Valley, Virginia City, and Bannack; and the rejection of the two 1846 passenger candidates as unsupported identities.
+- **Canon/research files updated:** `canon/characters/nicholas-tiebolt.md`, `canon/locations.md`, `canon/timeline.yaml`, `planning/cast.md`, `research/evidence-ledger.md`, `research/open-questions.md`, `editorial/author-decisions.md`
+- **Validation:** Project validator passed; the two-record scene index remained valid and unchanged; YAML parsing and `git diff --check` passed; no manuscript or scene-index files were modified.
+- **Unresolved questions:** Exact Colorado locality and duration; direct or intervening migration route; precise European birthplace and family; documentary residence or employment records in Nevada City; corroboration of the knife loan; and the location or survival of Tiebolt's grave.
+
 ## 2026-08-12 — Approved back-cover blurb
 
 - **Operation ID:** back-cover-blurb-20260812

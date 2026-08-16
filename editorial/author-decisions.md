@@ -2,6 +2,13 @@
 
 Record consequential decisions with date, issue, decision, rationale, and affected files. Do not reopen settled decisions unless new evidence or a direct author request warrants it.
 
+## 2026-08-15 — Tiebolt's provisional pre-Alder Gulch history
+
+- **Issue:** Whether the novel may treat Dimsdale's Washington Gulch report as part of Tiebolt's biography despite the lack of independent corroboration, and which other locations count as residences.
+- **Decision:** Assume for story planning that Tiebolt was in Washington Gulch, Colorado, around 1861. Treat Nevada City as his probable working base when he left for Dempsey's ranch in 1863. Do not infer a direct Washington Gulch-to-Nevada City migration, residence at Dempsey's ranch, Virginia City, or Bannack, or a precise European birthplace. The two 1846 New York passenger candidates are excluded from Tiebolt's canon unless new linking evidence appears.
+- **Rationale:** Dimsdale supplies a specific remembered object, place, approximate date, and witnesses; Langford twice identifies Nevada as Tiebolt's point of departure. Preserving the distinction between accepted premise, reasonable inference, event geography, and rejected identity candidates gives Tiebolt usable human history without manufacturing a genealogy or migration route.
+- **Affected files:** `canon/characters/nicholas-tiebolt.md`, `canon/locations.md`, `canon/timeline.yaml`, `planning/cast.md`, `research/evidence-ledger.md`, `research/open-questions.md`. No manuscript prose is approved or changed by this decision.
+
 ## 2026-08-12 — Murder-first opening and evidentiary boundary
 
 - **Issue:** Whether to begin with the Ives trial or with Tiebolt's final ride, and how directly to depict Ives and an alleged road-agent network.

@@ -102,8 +102,12 @@ These characters carry a major line of continuity across multiple parts of the b
 ### Person close to Tiebolt
 
 - Essential function: preserve Tiebolt as a person rather than merely the cause of Ives's trial.
-- Butschy, Clark, Dempsey, an employer, associate, finder, or another documented connection may fill this role.
-- Verify the relationships; do not invent intimacy from an economic association.
+- Tom Baume is the strongest currently documented prior acquaintance: Dimsdale says he lent Tiebolt a knife in Washington Gulch, Colorado, around 1861, recognized it when Tiebolt's body was brought to Nevada, and helped arrange the burial. John X. Beidler and William Clark reportedly witnessed the Colorado loan.
+- Colorado records produce a plausible but unproved Baume chain: an English-born Thomas Baume at Boulder City in 1860, an exact-name voter in 1861, and a surname-only Denver salesman in October 1863. A separate Indiana-born Thomas Baum lived at nearby Gold Hill, so the September 1863 `Tom Baum` passenger cannot be assigned safely.
+- Beidler is independently documented as a Colorado pack-train operator who freighted to California Gulch and Washington Gulch before leaving for Bannack in May 1863. This supports his knowledge of the setting and his migration to Montana, but not the knife loan or Tiebolt's presence.
+- William Clark remains unidentified. A Sacramento Flatts retail dealer in the 1862 tax list is the strongest contextual candidate, but the 1861 election contains numerous men of the same name and none is linked securely to Tiebolt.
+- Butschy and Clark remain useful work connections. Dimsdale says they trusted Tiebolt implicitly; Langford says he had won their confidence through fidelity and sobriety.
+- These reports establish acquaintance, trust, and continuity across mining camps, not private intimacy. Chapter IV may use one of these men to restore Tiebolt's human history only after the source basis and scene function are reviewed.
 
 ### Discoverer of Tiebolt or first alarm-raiser
 
@@ -126,10 +130,11 @@ These characters carry a major line of continuity across multiple parts of the b
 ### John Xavier “X” Beidler — enforcement
 
 - **Status:** Selected as a sharp secondary presence, introduced at the Ives trial and used selectively when impatience with procedure hardens into lethal action. Williams carries the larger operational arc.
-- **Background:** Pennsylvania-born worker and frontiersman variously employed as shoemaker, clerk, prospector, pack-train operator, freighter, stage guard, Vigilante, and deputy U.S. marshal.
+- **Background:** Pennsylvania-born worker and frontiersman variously employed as shoemaker, clerk, prospector, pack-train operator, freighter, stage guard, Vigilante, and deputy U.S. marshal. The 1850 census places him with his Pennsylvania family. The 1861 territorial election lists J. X. Beidler at Georgia Gulch; contemporary newspapers place his pack train at Montgomery City in January 1862, document freighting to California and Washington gulches, and report his May 1863 departure for Bannack.
 - **Trial connection:** Later accounts attribute to him the famous interruption of Ives's request for delay: “Sanders, ask him how long he gave the Dutchman.” Verify wording and provenance before use.
 - **Dramatic value:** Embodies impatience with procedural delay and the immediate enforcement of fatal consequences. His later formal law-enforcement service complicates the border between law and vigilantism.
 - **Use constraint:** Do not make him the face of the entire movement; his vividness must not conceal the responsibility of civic organizers, commanders, and the wider supporting population.
+- **Evidence constraint:** His Colorado route is documented independently, but his presence at the knife loan remains dependent on Dimsdale. Do not use the route as independent proof that Tiebolt was in Washington Gulch.
 - **Risk:** His vivid persona can turn collective civic responsibility into the story of one colorful frontier tough.
 
 ### Buck Stinson and Ned Ray — alleged associates
@@ -177,3 +182,6 @@ These characters carry a major line of continuity across multiple parts of the b
 - National Park Service, “The Superintendents—Nathaniel Langford”: <https://home.nps.gov/yell/blogs/the-superintendents-nathaniel-langford.htm>
 - University of Oklahoma Press, *Montana's Righteous Hangmen*: <https://www.oupress.com/9780806129129/montanas-righteous-hangmen/>
 - Montana History Portal, “Beidler, John X.”: <https://www.mtmemory.org/nodes/view/84381>
+- Denver Public Library, *Colorado 1861 Territorial Election*: <https://history.denverlibrary.org/sites/history/files/Colorado1861TerritorialElection.pdf>
+- Denver Public Library, *Territory of Colorado Tax Assessment Lists, 1862–1866*: <https://history.denverlibrary.org/sites/history/files/Colorado_Tax_Assessment_List_1862_1866.pdf>
+- Colorado Historic Newspapers Collection, Beidler and Baume results preserved in `research/tiebolt-colorado-associates.md`.
