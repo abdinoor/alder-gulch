@@ -76,10 +76,15 @@ Hundreds gather. Everyone is armed. It is unclear who stands with whom, but ther
 The prosecution begins building the case.
 
 ### Chapter 14 — The Performance of Law
-Objections, witnesses, argument, procedure. The town demonstrates publicly that it can conduct a fair trial.
+Objections, witnesses, argument and procedure. The prosecution assembles Tiebolt's errand, Palmer's discovery, the wound and lariat evidence, Long John's account, the missing mules and the statements attributed to Ives into a coherent theory of the crime. The town demonstrates publicly that it can conduct a fair trial even as evidence of unrelated robberies and violence threatens to let Ives's reputation answer the specific murder charge.
 
-### Chapter 15 — The Defense Answers
-Weaknesses appear. Testimony is challenged. Doubt becomes legitimate.
+### Chapter 15 — The Murder
+The narrative returns to the instant at which Chapter 1 turned away: Ives has come alongside Tiebolt on the road. Drawing on the evidence just presented, the chapter reconstructs Tiebolt's interception, the taking of the gold and mules, the lariat, the disputed request to pray, the shot above the eye, the movement through the brush and the concealment of the body. The documentary narrator remains close to Tiebolt and does not claim access to Ives's private thoughts. Exact dialogue, movement, sequence, consciousness and participation remain approved authorial reconstruction rather than neutral historical fact.
+
+The scene should run with minimal interruption so the reader can inhabit the prosecution's most compelling account. Its opening frames the episode as the story assembled from body, property and attributed words; its ending leaves Tiebolt hidden and the stolen property moving away with the living. The next chapter restores the evidentiary boundary.
+
+### Chapter 16 — The Defense Answers
+The defense begins from the fact that no one in Nevada City saw the complete event the reader has just experienced. Long John did not witness the shooting and spoke while threatened and suspected himself. Palmer saw only the aftermath. The physical evidence proves violence and concealment but does not identify the hand responsible. The alleged admissions, prayer statement, alibis, Carter's unresolved role and evidence of unrelated crimes are challenged. The distinction between believing Ives dangerous and proving that he murdered Tiebolt becomes legitimate doubt.
 
 ---
 
@@ -87,29 +92,29 @@ Weaknesses appear. Testimony is challenged. Doubt becomes legitimate.
 
 The private story begins running alongside the public one.
 
-### Chapter 16 — After Dark
+### Chapter 17 — After Dark
 Away from the crowd, men discuss what an acquittal would actually mean.
 
-### Chapter 17 — He Walks
+### Chapter 18 — He Walks
 If Ives is acquitted, he is innocent in the eyes of the court. He goes free.
 
-### Chapter 18 — Everyone Goes Home
+### Chapter 19 — Everyone Goes Home
 So do the witnesses. So do the jurors. So does Sanders. There is no state apparatus standing between them.
 
-### Chapter 19 — Another One
+### Chapter 20 — Another One
 The private question becomes unavoidable: are they prepared to repeat this entire process for every suspected road agent?
 
-### Chapter 20 — The Sides
+### Chapter 21 — The Sides
 Private alliances harden. Men who publicly defer to the trial privately prepare for what may follow it.
 
-### Chapter 21 — The Trial of the System
+### Chapter 22 — The Trial of the System
 Two questions now coexist:
 
 **Public:** Did George Ives murder Nicholas Tiebolt?
 
 **Private:** Can we possibly do this again?
 
-### Chapter 22 — The Private Verdict
+### Chapter 23 — The Private Verdict
 Before the jury reaches its verdict on Ives, some men have reached theirs on the process.
 
 No.
@@ -122,30 +127,30 @@ Outside the courtroom, men may already have decided that the next George Ives wi
 
 The two stories collide.
 
-### Chapter 23 — The Last Day
+### Chapter 24 — The Last Day
 The lawyers are still fighting over evidence while the larger decision has already begun moving beyond them.
 
-### Chapter 24 — Reasonable Doubt
+### Chapter 25 — Reasonable Doubt
 The possibility of acquittal becomes real enough to frighten the town.
 
-### Chapter 25 — Deliberation
+### Chapter 26 — Deliberation
 The jury withdraws.
 
-### Chapter 26 — The Crowd Waits
+### Chapter 27 — The Crowd Waits
 The entire experiment now depends on a small group of men reaching a decision everyone has promised to accept.
 
-### Chapter 27 — Guilty
+### Chapter 28 — Guilty
 The verdict resolves Ives's fate.
 
 It does not resolve the larger question.
 
-### Chapter 28 — How Long?
+### Chapter 29 — How Long?
 Ives asks for delay.
 
-### Chapter 29 — The Hanging
+### Chapter 30 — The Hanging
 The sentence is carried out.
 
-### Chapter 30 — The Street Empties
+### Chapter 31 — The Street Empties
 The improvised courtroom disappears almost as quickly as it was created.
 
 ---
@@ -154,96 +159,96 @@ The improvised courtroom disappears almost as quickly as it was created.
 
 The trial and the Vigilance Committee are revealed not as cause and consequence, but as competing systems born from the same crisis.
 
-### Chapter 31 — The Morning After
+### Chapter 32 — The Morning After
 The town has successfully conducted a trial. Few of the men involved want to do it again.
 
-### Chapter 32 — What Almost Happened
+### Chapter 33 — What Almost Happened
 The guilty verdict is convenient. The possibility of acquittal is what matters.
 
-### Chapter 33 — The Meeting
+### Chapter 34 — The Meeting
 The men who have been speaking privately begin formalizing their answer.
 
-### Chapter 34 — December 23
+### Chapter 35 — December 23
 The Vigilance Committee is organized.
 
-### Chapter 35 — Rules
+### Chapter 36 — Rules
 Officers, oaths, companies, responsibilities. They build another institution.
 
-### Chapter 36 — Pfouts
+### Chapter 37 — Pfouts
 Respectable civic authority gives the organization shape.
 
-### Chapter 37 — Williams
+### Chapter 38 — Williams
 The organization acquires operational force.
 
-### Chapter 38 — Sanders
+### Chapter 39 — Sanders
 The lawyer who helped prove that law could work now confronts the conditions under which it cannot safely operate.
 
-### Chapter 39 — Beidler
+### Chapter 40 — Beidler
 Some men are already comfortable with where this logic ends.
 
 ---
 
 # Part VI — A Different Kind of Justice
 
-### Chapter 40 — The Names
+### Chapter 41 — The Names
 Suspected road agents are identified.
 
-### Chapter 41 — The First Ride
+### Chapter 42 — The First Ride
 The Vigilantes go after them rather than summon them to court.
 
-### Chapter 42 — A New Standard
+### Chapter 43 — A New Standard
 The question is no longer only whether a specific crime can be proved.
 
 It becomes whether a man is dangerous enough to leave free.
 
-### Chapter 43 — Confessions
+### Chapter 44 — Confessions
 One name produces another.
 
-### Chapter 44 — The Network
+### Chapter 45 — The Network
 Association, reputation, testimony and fear begin forming a map of alleged criminality.
 
-### Chapter 45 — Plummer
+### Chapter 46 — Plummer
 Suspicion turns toward the sheriff.
 
-### Chapter 46 — Bannack
+### Chapter 47 — Bannack
 The Vigilantes come for Plummer, Stinson and Ray.
 
-### Chapter 47 — No Courthouse
+### Chapter 48 — No Courthouse
 No wagon-bench. No jury around the fire. No public performance of proof.
 
-### Chapter 48 — The Gallows
+### Chapter 49 — The Gallows
 The system created after Ives reaches its logical conclusion.
 
 ---
 
 # Part VII — Order
 
-### Chapter 49 — The Campaign
+### Chapter 50 — The Campaign
 The Vigilantes continue pursuing suspected road agents.
 
-### Chapter 50 — Quiet Roads
+### Chapter 51 — Quiet Roads
 Crime appears to diminish.
 
-### Chapter 51 — The Argument
+### Chapter 52 — The Argument
 The results become the strongest justification for what they have done.
 
-### Chapter 52 — The Cost
+### Chapter 53 — The Cost
 The same system that protects the town no longer contains the safeguards displayed at the Ives trial.
 
-### Chapter 53 — Government
+### Chapter 54 — Government
 Formal institutions finally begin arriving.
 
-### Chapter 54 — Respectable Men
+### Chapter 55 — Respectable Men
 Participants in the Vigilance movement become civic and political leaders.
 
-### Chapter 55 — The Story They Told
+### Chapter 56 — The Story They Told
 The events harden into the founding mythology of Montana.
 
-### Chapter 56 — What Cannot Be Known
+### Chapter 57 — What Cannot Be Known
 The historical certainty surrounding Ives, Plummer and the alleged road-agent organization begins to erode.
 
-### Chapter 57 — The Court Before the State
+### Chapter 58 — The Court Before the State
 Return to the central contradiction: they created the forms of law before possessing the power that makes those forms safe.
 
-### Chapter 58 — The Street
+### Chapter 59 — The Street
 Return to Nevada City.

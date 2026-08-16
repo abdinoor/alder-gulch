@@ -234,3 +234,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Material changes:** Added the first canonical part cover page for Part V, “The Other Side of the Coin,” with the approved Dimsdale epigraph. Established frontmatter and filename conventions for part dividers and added reusable PDF support that inserts a divider immediately before its declared chapter without counting it as a scene or prematurely including a future part in the current reading copy.
 - **Canon/research files updated:** `manuscript/part-05-the-other-side-of-the-coin.md`, `manuscript/README.md`, `skills/publish-novel-pdf/scripts/build_novel_pdf.py`, `skills/publish-novel-pdf/references/configuration.md`; no scene-index entry because a part divider is not a scene
 - **Unresolved questions:** Parts I–IV and VI–VII do not yet have approved cover pages or epigraphs.
+
+## 2026-08-16 — Insert the planned murder reconstruction after the prosecution case
+
+- **Operation ID:** place-chapter-15-murder-reconstruction-20260816
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved the recommended placement and requested the structural commit
+- **Target:** `structure-outline.md`, Part II and all subsequent chapter numbers
+- **Source intake:** Approved working-session placement recommendation and beat outline; no separate intake item
+- **Specialists used:** Story Editor, Research & Verification, and Integration protocols, applied directly by the Lead
+- **Material changes:** Inserted Chapter 15, “The Murder,” as an immersive reconstruction after the prosecution evidence and before the defense response; expanded Chapters 14 and 16 to establish the evidentiary handoff; renumbered former Chapters 16–58 as Chapters 17–59; moved the Part V divider target from Chapter 31 to Chapter 32; and registered the authorized inventions and continuity boundary for the future scene.
+- **Canon/research files updated:** `structure-outline.md`, `research/invention-register.md`, `editorial/author-decisions.md`, `manuscript/part-05-the-other-side-of-the-coin.md`; no drafted scene or scene-index record added
+- **Unresolved questions:** Exact reconstructed dialogue, physical sequence, duration of Tiebolt's survival, use of the lariat, Carter's presence or absence, and the original source of the prayer statement remain to be resolved or explicitly licensed in the Chapter 15 scene contract.
