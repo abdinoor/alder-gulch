@@ -222,3 +222,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Material changes:** Created a claim-by-claim account of Tiebolt's errand, disappearance, body discovery and reported injuries, identification and burial, Long John's accusation and testimony, the alleged prayer statement, Carter's connection to the mules, Ives's denials, and the structure and result of the miners' trial. Separated reported observation from physical inference, disputed testimony, historical verdict, and authorial reconstruction.
 - **Canon/research files updated:** `research/tiebolt-death-and-ives-trial.md`, `research/evidence-ledger.md`; no manuscript, character, timeline, or scene-index changes
 - **Unresolved questions:** Surviving Patton or Pemberton notes; contemporary trial reporting; complete witness and alibi evidence; provenance of the prayer statement; inquest, burial, property, and livestock records; Carter's precise role; and modern reassessment of Long John's reliability and the trial's evidentiary sufficiency.
+
+## 2026-08-16 — Add Part V cover page and divider support
+
+- **Operation ID:** part-05-dimsdale-cover-20260816
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved the exact Part V title, quotation, attribution, and filename
+- **Target:** `manuscript/part-05-the-other-side-of-the-coin.md`
+- **Source intake:** Author-supplied Dimsdale quotation, verified against *The Vigilantes of Montana* (1866), chapter XIV; no separate intake item
+- **Specialists used:** Story placement, Integration, and Publish Novel PDF protocols, applied directly by the Lead
+- **Material changes:** Added the first canonical part cover page for Part V, “The Other Side of the Coin,” with the approved Dimsdale epigraph. Established frontmatter and filename conventions for part dividers and added reusable PDF support that inserts a divider immediately before its declared chapter without counting it as a scene or prematurely including a future part in the current reading copy.
+- **Canon/research files updated:** `manuscript/part-05-the-other-side-of-the-coin.md`, `manuscript/README.md`, `skills/publish-novel-pdf/scripts/build_novel_pdf.py`, `skills/publish-novel-pdf/references/configuration.md`; no scene-index entry because a part divider is not a scene
+- **Unresolved questions:** Parts I–IV and VI–VII do not yet have approved cover pages or epigraphs.

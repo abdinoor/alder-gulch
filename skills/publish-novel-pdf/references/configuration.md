@@ -24,6 +24,8 @@ Scene discovery:
 3. Append any unindexed scene files in natural path order and emit a warning.
 4. Group `01.01-opening.md`, `01.02-arrival.md`, and similar names as Chapter 1. A top-level `01-opening.md` becomes Chapter 1 on its own.
 
+Part cover pages are Markdown files with `document_type: "part"`, `part_number`, and `before_chapter` in YAML frontmatter. They are excluded from scene and chapter counts and inserted on their own page immediately before the declared chapter. A part page is deferred when its target chapter is not yet present, allowing future-part files to remain in a work-in-progress manuscript without appearing at the end of the current reading copy.
+
 Markdown handling is intentionally conservative. A single `#` heading can supply a chapter title; `##` and deeper headings become in-text subheads. Lines containing only `***`, `---`, or `* * *` become centered scene breaks. YAML frontmatter is omitted.
 
 When `back_matter_file` names a project-relative Markdown file, the builder places its body on a new final page without counting it as a scene or chapter. The file's first-level heading is omitted. Set `back_matter_title` to add an optional displayed heading; leave it empty for unheaded back matter such as back-cover copy.

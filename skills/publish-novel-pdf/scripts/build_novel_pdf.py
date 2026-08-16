@@ -85,10 +85,30 @@ def manuscript_dir(project: Path) -> Path:
     return project / str(cfg.get("manuscript_dir", "manuscript"))
 
 
+def frontmatter_values(path: Path) -> dict:
+    lines = path.read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
+    if not lines or lines[0].strip() != "---":
+        return {}
+    values = {}
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        values[key.strip()] = scalar(value)
+    return values
+
+
+def is_part_page(path: Path) -> bool:
+    return str(frontmatter_values(path).get("document_type", "")).casefold() == "part"
+
+
 def discover_scenes(project: Path) -> tuple[list[Path], list[str]]:
     root = manuscript_dir(project)
     all_files = sorted(
-        (p for p in root.rglob("*.md") if p.name != "README.md" and not p.name.startswith(('.', '_'))),
+        (p for p in root.rglob("*.md") if p.name != "README.md" and not p.name.startswith(('.', '_'))
+         and not is_part_page(p)),
         key=natural_key,
     )
     index = project / "planning" / "scene-index.yaml"
@@ -105,6 +125,22 @@ def discover_scenes(project: Path) -> tuple[list[Path], list[str]]:
     if ordered and unindexed:
         warnings.append(f"appended {len(unindexed)} unindexed scene file(s) in filename order")
     return ordered + unindexed, warnings
+
+
+def discover_part_pages(project: Path) -> dict[int, Path]:
+    root = manuscript_dir(project)
+    parts = {}
+    for path in sorted(root.rglob("*.md"), key=natural_key):
+        if not is_part_page(path):
+            continue
+        meta = frontmatter_values(path)
+        before = meta.get("before_chapter")
+        if not isinstance(before, int) or before < 1:
+            raise ValueError(f"part page requires a positive before_chapter: {path}")
+        if before in parts:
+            raise ValueError(f"multiple part pages target chapter {before}: {parts[before]} and {path}")
+        parts[before] = path
+    return parts
 
 
 def strip_frontmatter(text: str) -> str:
@@ -161,6 +197,25 @@ def parse_scene(path: Path) -> tuple[str | None, list[tuple[str, str]]]:
             current.append(stripped)
     flush()
     return chapter_title, blocks
+
+
+def parse_part_page(path: Path) -> tuple[str, str, str, str]:
+    text = strip_frontmatter(path.read_text(encoding="utf-8"))
+    part_label = title = attribution = ""
+    quote_lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("# "):
+            part_label = stripped[2:].strip()
+        elif stripped.startswith("## "):
+            title = stripped[3:].strip()
+        elif stripped.startswith(">"):
+            quote_lines.append(stripped[1:].strip())
+        elif stripped and quote_lines:
+            attribution = stripped
+    if not part_label or not title or not quote_lines:
+        raise ValueError(f"part page requires a part heading, title, and block quote: {path}")
+    return part_label, title, " ".join(quote_lines), attribution
 
 
 def inline_markup(text: str) -> str:
@@ -292,6 +347,14 @@ def styles(cfg: dict):
                                   leading=11, alignment=TA_CENTER),
         "chapter": ParagraphStyle("Chapter", parent=base["Heading1"], fontName="Novel-Regular", fontSize=15,
                                   leading=20, alignment=TA_CENTER, spaceAfter=30),
+        "part_label": ParagraphStyle("PartLabel", parent=base["Heading1"], fontName="Novel-Regular", fontSize=14,
+                                     leading=19, alignment=TA_CENTER, spaceAfter=20),
+        "part_title": ParagraphStyle("PartTitle", parent=base["Title"], fontName="Novel-Regular", fontSize=21,
+                                     leading=27, alignment=TA_CENTER, spaceAfter=52),
+        "epigraph": ParagraphStyle("Epigraph", parent=base["BodyText"], fontName="Novel-Italic", fontSize=9.5,
+                                   leading=13.5, leftIndent=0.45*inch, rightIndent=0.45*inch, spaceAfter=18),
+        "attribution": ParagraphStyle("Attribution", parent=base["BodyText"], fontName="Novel-Regular", fontSize=8.5,
+                                     leading=12, alignment=TA_CENTER),
         "body_first": ParagraphStyle("BodyFirst", parent=base["BodyText"], fontName="Novel-Regular", fontSize=size,
                                      leading=leading, alignment=0, firstLineIndent=0, spaceAfter=0,
                                      allowWidows=0, allowOrphans=0),
@@ -311,6 +374,7 @@ def styles(cfg: dict):
 def build(project: Path, output: Path, allow_empty: bool) -> tuple[int, int, list[str]]:
     cfg = dict(DEFAULTS); cfg.update(read_simple_yaml(project / ".novel" / "publishing.yaml"))
     scenes, warnings = discover_scenes(project)
+    part_pages = discover_part_pages(project)
     if not scenes and not allow_empty:
         raise RuntimeError("no manuscript scene files found; use --allow-empty only to test the pipeline")
     cover_path = resolve_cover(project, cfg, warnings)
@@ -334,7 +398,18 @@ def build(project: Path, output: Path, allow_empty: bool) -> tuple[int, int, lis
     story += [Spacer(1, 1.35*inch), Paragraph(inline_markup(str(cfg["edition"])), style["edition"]), PageBreak()]
 
     for chapter_i, (number, paths) in enumerate(chapters.items()):
-        if chapter_i:
+        if number in part_pages:
+            if chapter_i:
+                story.append(PageBreak())
+            part_label, part_title, epigraph, attribution = parse_part_page(part_pages[number])
+            story += [Spacer(1, 1.2*inch),
+                      Paragraph(inline_markup(part_label), style["part_label"]),
+                      Paragraph(inline_markup(part_title), style["part_title"]),
+                      Paragraph(inline_markup(epigraph), style["epigraph"])]
+            if attribution:
+                story.append(Paragraph(inline_markup(attribution), style["attribution"]))
+            story.append(PageBreak())
+        elif chapter_i:
             story.append(PageBreak())
         parsed = [parse_scene(p) for p in paths]
         chapter_title = next((title for title, _ in parsed if title), None)
@@ -353,6 +428,10 @@ def build(project: Path, output: Path, allow_empty: bool) -> tuple[int, int, lis
                     story.append(Paragraph(inline_markup(content), style["subhead"])); first = True
                 else:
                     story.append(Paragraph("* * *", style["break"])); first = True
+
+    deferred_parts = sorted(set(part_pages) - set(chapters))
+    if deferred_parts:
+        warnings.append("deferred part page(s) awaiting chapter " + ", ".join(str(n) for n in deferred_parts))
 
     back_matter_file = str(cfg.get("back_matter_file", "")).strip()
     if back_matter_file:
