@@ -25,11 +25,12 @@ Classify each material conclusion as documented fact, disputed claim, reasonable
 ### Ives as Tiebolt's killer
 
 - **Classification:** Historical verdict and traditional account; underlying reconstruction disputed
-- **Finding:** Ives was tried, convicted, and executed for Tiebolt's murder. Dimsdale attributes the shooting, robbery, and theft of the mules to Ives, drawing partly on testimony that placed Ives going to meet Tiebolt and later possessing the mules.
-- **Confidence:** High for accusation, conviction, and execution; medium for the traditional reconstruction; low for undocumented moment-to-moment mechanics.
-- **Sources:** Dimsdale, *The Vigilantes of Montana* (1866), ch. XIV; project factual background.
-- **Limitations/contradictions:** No surviving witness account consulted for this integration documents a mounted chase or the precise incapacitation shown in Chapter 1.
-- **Manuscript implication:** Detailed wounds and killing mechanics are deferred to trial chapters; chase actions are registered as reconstruction.
+- **Finding:** Ives was accused, tried, convicted, and executed for Tiebolt's murder. The traditional case relied on reported testimony that Long John saw Tiebolt approach with the mules, saw Ives go to meet him, and saw Ives return with the animals while making an incriminating statement. Long John did not claim to witness the shooting. The accounts also connect Aleck Carter to the later movement or concealment of the mules. Tiebolt's body reportedly bore a bullet wound above the left eye and marks of a small lariat around the neck, with Dimsdale also reporting wrist marks.
+- **Confidence:** High for the accusation, miners' trial, 23-member guilty finding with one juror declining, public adoption of the verdict, and execution; medium for the reported circumstantial evidence and observable condition of the body; low for the exact killing sequence and quoted admissions.
+- **Sources:** Thomas J. Dimsdale, *The Vigilantes of Montana* (1866), ch. XIV, <https://www.gutenberg.org/files/68146/68146-h/68146-h.htm>; Nathaniel Pitt Langford, *Vigilante Days and Ways* (1890), vol. I, ch. XXIX, <https://readingroo.ms/6/4/1/3/64135/64135-h/64135-h.htm>; detailed claim audit in `research/tiebolt-death-and-ives-trial.md`.
+- **Limitations/contradictions:** Neither principal author witnessed the killing, both wrote within the pro-vigilante tradition, and no complete trial transcript has been located. The inference that Tiebolt was dragged while alive derives from the body's reported condition, not an eyewitness or surviving medical report. Langford's alleged prayer-and-shooting boast is reported testimony preserved decades later. Ives denied guilt, offered alibis, and reportedly accused Carter at his execution. Henry Spivey later said the evidence did not satisfy him that Ives committed the specific murder, although he believed Ives to be a road agent.
+- **Manuscript implication:** The body evidence and incriminating testimony may be developed in the discovery and trial chapters as reported observations, inference, and contested evidence. The trial must preserve the absence of a murder eyewitness, the defense's challenge, evidentiary spillover from other alleged crimes, and the miners' control of verdict and punishment. A chase, private exchange, exact use of the lariat, or moment-to-moment killing remains registered reconstruction.
+- **Checked:** 2026-08-16
 
 ### Ives and an organized road-agent network
 

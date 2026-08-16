@@ -210,3 +210,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Canon/research files updated:** None. The revision introduces no new canonical event, character knowledge, or historical classification.
 - **Validation:** Canonical manuscript matches the approved replacement; project validator passed; scene-index validator passed with two scene records; `git diff --check` passed; stable scene ID `01.01` remains unique; reading PDF rebuilt with two scenes and two chapters at 6×9-inch trim.
 - **Unresolved questions:** None introduced. Existing questions concerning the exact route, chase mechanics, and organized-road-agent claim remain governed by the evidence ledger and invention register.
+
+## 2026-08-16 — Record Tiebolt death and Ives trial evidence
+
+- **Operation ID:** tiebolt-death-ives-trial-research-20260816
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved a dedicated research document and expanded evidence-ledger entry
+- **Target:** `research/tiebolt-death-and-ives-trial.md`; `research/evidence-ledger.md`
+- **Source intake:** Working-session factual review of Dimsdale and Langford; no separate intake item
+- **Specialists used:** Research & Verification and Integration protocols, applied directly by the Lead
+- **Material changes:** Created a claim-by-claim account of Tiebolt's errand, disappearance, body discovery and reported injuries, identification and burial, Long John's accusation and testimony, the alleged prayer statement, Carter's connection to the mules, Ives's denials, and the structure and result of the miners' trial. Separated reported observation from physical inference, disputed testimony, historical verdict, and authorial reconstruction.
+- **Canon/research files updated:** `research/tiebolt-death-and-ives-trial.md`, `research/evidence-ledger.md`; no manuscript, character, timeline, or scene-index changes
+- **Unresolved questions:** Surviving Patton or Pemberton notes; contemporary trial reporting; complete witness and alibi evidence; provenance of the prayer statement; inquest, burial, property, and livestock records; Carter's precise role; and modern reassessment of Long John's reliability and the trial's evidentiary sufficiency.
