@@ -2,6 +2,18 @@
 
 Classify each material conclusion as documented fact, disputed claim, reasonable inference, or authorial invention. Include sources, confidence, contradictions, and manuscript implications.
 
+## 2026-08-16 — Chapter 3 road incidents
+
+### The robberies, disappearances, and armed journeys
+
+- **Classification:** Documented in early participant and pro-vigilante accounts, with individual identifications and organizational explanations disputed
+- **Finding:** Early accounts describe the Magruder murders; the Peabody and Caldwell coach robbery; Henry Tilden's reported encounter; the armed Hauser–Langford departure; Leroy Southmayd's robbery and return journey; the attempted robbery of Milton Moody's caravan; Anton Holter's robbery and near killing; and James Sheehan's concealed-gold journey. The accounts preserve dialogue for several coach, caravan, and Holter episodes, while the Sheehan episode survives through later family recollection.
+- **Confidence:** High that the Magruder party was murdered and its killers prosecuted, and that the principal robberies and armed journeys were reported; medium for participant identifications and preserved dialogue; low for the later claim that every incident formed part of a centrally directed organization
+- **Sources:** Thomas J. Dimsdale, *The Vigilantes of Montana* (1866); Nathaniel Pitt Langford, *Vigilante Days and Ways* (1890), vol. I; Mary Sheehan Ronan, *Girl from the Gulches: The Story of Mary Ronan* (memoir dictated in 1929, later published by the Montana Historical Society Press).
+- **Limitations/contradictions:** Dimsdale and Langford wrote within the vigilante tradition and sometimes narrate alleged councils, motives, affiliations, and signals that the travelers did not witness. Ronan's account is a late family memoir. Reported dollar amounts, assailant identities, exact wording, and the structure attributed to Plummer require source-specific qualification.
+- **Manuscript implication:** Chapter 3 may dramatize documented incidents and source-preserved exchanges, but must keep unwitnessed coordination and the alleged Plummer hierarchy within explicit later-attribution boundaries. Where wording is not preserved, speech remains indirect.
+- **Checked:** 2026-08-16
+
 ## 2026-08-12 — Chapter 1 setting and Tiebolt-Ives account
 
 ### Alder Gulch discovery and territorial status

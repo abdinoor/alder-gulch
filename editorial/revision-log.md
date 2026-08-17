@@ -2,6 +2,32 @@
 
 Append one entry per integrated change. Do not record suggestion-only work here.
 
+## 2026-08-17 — Reorder the Chapter 3 road incidents
+
+- **Operation ID:** reorder-chapter-03-vignettes-20260817
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author specified the new order and explicitly confirmed the completed reordered proposal
+- **Target:** `manuscript/03.01-the-roads.md`, scene `03.01`
+- **Source intake:** `editorial/proposals/03.01-the-roads.reordered.proposed.md`
+- **Specialists used:** Story Editor, Writer / Prose / Continuity, and Integration protocols, applied directly by the Lead
+- **Material changes:** Reordered the interior vignettes to Southmayd, Holter, Moody, Tilden, Peabody and Caldwell, and Magruder while preserving the Sheehan departure-and-return frame. Preserved every approved vignette without deletion or prose revision; retained explicit dates so the chapter's nonchronological documentary structure remains visible.
+- **Canon/planning/research files updated:** Updated the scene `03.01` turn in `planning/scene-index.yaml`; existing evidence classifications remain unchanged.
+- **Validation:** Project validator passed; scene-index validator passed with three scene records; `git diff --check` passed; canonical scene ID `03.01` appears exactly once under `manuscript/`; canonical prose matches the approved reordered proposal apart from the metadata status change from `proposed` to `draft`; beat order verified as Sheehan departure, Southmayd, Holter, Moody, Tilden, Peabody and Caldwell, Magruder, and Sheehan return; the installed novel-writing skill matches the repository source.
+- **Unresolved questions:** None introduced; existing source and attribution cautions remain in force.
+
+## 2026-08-16 — Confirm Chapter 3: The Roads
+
+- **Operation ID:** integrate-chapter-03-the-roads-20260816
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author explicitly confirmed the completed Chapter 3 proposal
+- **Target:** `manuscript/03.01-the-roads.md`, scene `03.01`
+- **Source intake:** `editorial/proposals/03.01-the-roads.proposed.md`
+- **Specialists used:** Research & Verification, Writer / Prose / Continuity, and Integration protocols, applied directly by the Lead
+- **Material changes:** Promoted the approved six-episode documentary chapter to canonical Chapter 3, converted proposal status to canonical draft status, preserved the Sheehan frame and Southmayd-dominant structure, and retained only source-preserved dialogue while leaving uncertain speech indirect.
+- **Canon/planning/research files updated:** Added scene `03.01` to `planning/scene-index.yaml` and recorded the chapter's evidence boundary in `research/evidence-ledger.md`; no character, timeline, location, or invention records required alteration.
+- **Validation:** Project validator passed; scene-index validator passed with three scene records; `git diff --check` passed; canonical scene ID `03.01` appears exactly once under `manuscript/`; canonical prose matches the approved proposal apart from the metadata status change from `proposed` to `draft`; the installed novel-writing skill matches the repository source.
+- **Unresolved questions:** Individual dialogue wording, identifications, reported amounts, and the alleged Plummer organization remain governed by the qualifications in the evidence ledger and the chapter's own attribution boundaries.
+
 ## 2026-08-16 — Preserve Tiebolt's Colorado-associate research
 
 - **Operation ID:** tiebolt-colorado-associates-20260816
