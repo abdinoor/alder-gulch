@@ -310,3 +310,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Canon/research files updated:** `research/invention-register.md`; scene-index metadata, character canon, timeline, and historical classifications remain unchanged
 - **Validation:** Project validator passed; scene-index validator passed with four scene records; canonical scene matches the approved proposal apart from status metadata; `git diff --check` passed; stable scene ID `04.01` remains unique.
 - **Unresolved questions:** Palmer's actual handling of the body, whether Tiebolt grasped the vegetation while alive, the relationship among the possible William Clarks, the grave location, and the sequence and participants in the killing remain unresolved.
+
+## 2026-08-17 — Deepen Chapter 4 physical narration and investigative turn
+
+- **Operation ID:** chapter-04-physical-narration-and-inquiry-20260817
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author reviewed each passage and directed that the complete proposal be locked in
+- **Target:** `manuscript/04.01-the-body.md`, scene `04.01`
+- **Source intake:** Revised `editorial/proposals/04.01-the-body.proposed.md`; no external submission
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead
+- **Material changes:** Replaced archival explanation of Palmer's transport with bounded physical action; removed the irrelevant observation that the mules were absent from the body; rendered Baume's knife recognition as memory rather than source qualification; removed digressions concerning Tiebolt's intended use of the payment, birthplace, and undocumented records; consolidated the burial into one continuous paragraph; and recast the chapter ending as the questions that lead citizens back to Long John.
+- **Canon/research files updated:** `research/invention-register.md`; scene-index metadata, character canon, timeline, and historical classifications remain unchanged
+- **Unresolved questions:** Palmer's exact handling of the body, the precise burial actions and attendance, whether Tiebolt grasped the vegetation while alive, the relationship among the possible William Clarks, the grave location, and the sequence and participants in the killing remain unresolved.
