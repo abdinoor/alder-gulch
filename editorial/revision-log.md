@@ -272,3 +272,41 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Material changes:** Inserted Chapter 15, “The Murder,” as an immersive reconstruction after the prosecution evidence and before the defense response; expanded Chapters 14 and 16 to establish the evidentiary handoff; renumbered former Chapters 16–58 as Chapters 17–59; moved the Part V divider target from Chapter 31 to Chapter 32; and registered the authorized inventions and continuity boundary for the future scene.
 - **Canon/research files updated:** `structure-outline.md`, `research/invention-register.md`, `editorial/author-decisions.md`, `manuscript/part-05-the-other-side-of-the-coin.md`; no drafted scene or scene-index record added
 - **Unresolved questions:** Exact reconstructed dialogue, physical sequence, duration of Tiebolt's survival, use of the lariat, Carter's presence or absence, and the original source of the prayer statement remain to be resolved or explicitly licensed in the Chapter 15 scene contract.
+
+## 2026-08-17 — Establish connected literary movement guidance
+
+- **Operation ID:** connected-literary-movement-guidance-20260817
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved the revised Tiebolt-absence wording and directed that its underlying lesson govern prose, voice, and writing guidance
+- **Target:** `canon/style-and-voice.md`, `prose-guidelines.md`, and the Chapter 4 review proposal
+- **Source intake:** Author-directed working-session revision; no separate intake item
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead
+- **Material changes:** Added guidance favoring connected causality, accumulating social pressure, graceful sentence movement, and gradual changes in human meaning over choppy factual units, bureaucratic explanation, or compensatory metaphor. Added the approved Tiebolt-absence paragraph as a methodological exemplar and placed its wording in the Chapter 4 proposal.
+- **Canon/research files updated:** `canon/style-and-voice.md`, `prose-guidelines.md`, `editorial/author-decisions.md`; no manuscript, scene-index, character, timeline, or research changes
+- **Unresolved questions:** The remainder of the Chapter 4 proposal still requires a chapter-wide literary prose review under the new guidance before manuscript integration.
+
+## 2026-08-17 — Integrate Chapter 4, “The Body”
+
+- **Operation ID:** integrate-chapter-04-the-body-20260817
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved the full literary prose pass and directed that Chapter 4 be locked in
+- **Target:** `manuscript/04.01-the-body.md`, scene `04.01`
+- **Source intake:** `editorial/proposals/04.01-the-body.proposed.md`; no external submission
+- **Specialists used:** Story Editor, Writer / Prose / Continuity, and Integration protocols, applied directly by the Lead
+- **Material changes:** Added the canonical Chapter 4 scene covering Tiebolt's nine-day absence, Palmer's discovery, the refusal at the wakiup, transport to Nevada City, identification through Baume's knife, the distinction among possible William Clarks, reported injuries and their limits, burial above Nevada City, and the turn from disappearance to public knowledge of a killing. Preserved the unknown crime sequence and withheld Ives's identification.
+- **Canon/research files updated:** `canon/characters/nicholas-tiebolt.md`, `canon/timeline.yaml`, `research/invention-register.md`, `editorial/author-decisions.md`, and `planning/scene-index.yaml`
+- **Validation:** Project validator passed; scene-index validator passed with four scene records; canonical manuscript matches the approved proposal apart from status metadata; `git diff --check` passed; stable scene ID `04.01` is unique and all indexed paths exist.
+- **Unresolved questions:** Palmer's exact handling of the body; the precise composition and reactions of the Nevada City crowd; the relationship among the employer Clark, Colorado knife-loan witness, and burial participant; Tiebolt's exact grave location; and the sequence and participants in the killing remain unresolved.
+
+## 2026-08-17 — Remove repeated rhetorical buttoning from Chapter 4
+
+- **Operation ID:** chapter-04-remove-rhetorical-buttons-20260817
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author reviewed the replacement chapter and approved the final examination passage
+- **Target:** `manuscript/04.01-the-body.md`, scene `04.01`
+- **Source intake:** Revised `editorial/proposals/04.01-the-body.proposed.md`; no external submission
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead
+- **Material changes:** Replaced repeated aphoristic paragraph buttons, balanced antitheses, and symbolic restatements with factual continuation and scene action. Streamlined the discovery, wakiup, identification, evidence, burial, and investigation transitions. Added the approved connective action of Palmer turning the facedown head to view the wound and a bounded perception that the vegetation looked seized and held fast, while preserving uncertainty about whether Tiebolt grasped it alive.
+- **Canon/research files updated:** `research/invention-register.md`; scene-index metadata, character canon, timeline, and historical classifications remain unchanged
+- **Validation:** Project validator passed; scene-index validator passed with four scene records; canonical scene matches the approved proposal apart from status metadata; `git diff --check` passed; stable scene ID `04.01` remains unique.
+- **Unresolved questions:** Palmer's actual handling of the body, whether Tiebolt grasped the vegetation while alive, the relationship among the possible William Clarks, the grave location, and the sequence and participants in the killing remain unresolved.

@@ -24,6 +24,14 @@ Reader attachment should grow from the narrator's patience, fairness, humane att
 - **Functional repetition.** Repeat a precise legal, physical, or moral term when continuity of meaning matters. Do not vary a contested term merely for style.
 - **Understated closure.** Allow consequences to settle at the scale the passage has earned. Do not force a paradox, punchline, clipped epigram, or emphatic close.
 
+### Flow, grace, and accumulated meaning
+
+Literary movement should arise from the relationship among facts, not from ornament laid over them. Let one sentence carry action, circumstance, and consequence forward; let the next deepen the human meaning or alter how the preceding fact is understood. Prefer connected syntax and accumulating pressure to a series of flat declarative units.
+
+Do not translate a character's predicament into administrative language such as “the simplest explanation” when the prose can show a human judgment forming over time. Do not compensate for flatness with a conspicuous metaphor, polished maxim, or sentence designed to be quoted. Grace comes from proportion, sequence, cadence, and the gradual change in what an ordinary action means.
+
+Where the history permits, organize exposition around a social pressure: trust beginning to look misplaced, kindness being misunderstood, an obligation passing from one person to another, or an ordinary errand acquiring a darker interpretation. The movement of feeling should remain legible without the narrator announcing a psychological conclusion unsupported by the record.
+
 ### Human particularity and focal intimacy
 
 People do not experience the gulch as an illustration of authority, evidence, or distance. They experience a late wagon, a wet blanket, a desirable coat, an embarrassing mistake, a remembered smell, a private joke, a hand they want to touch, or food they do not wish to share.
@@ -82,6 +90,8 @@ The following examples establish the method. They are voice exemplars, not autom
 
 **Edgar's return:** Preserve “The prospecting could have ended there without dishonor. Most expeditions ended with less than they had hoped to find.” The grammar carries counterfactual tension, historical context, and generosity toward failure. If more emotion is needed, deepen what Bannack means after hunger, pursuit, and uncertainty: familiar water and known faces can make an ordinary destination look like success. Do not compress away the possibility contained in “could have ended.”
 
+**Tiebolt's absence:** Preserve the movement of: “Nicholas Tiebolt had gone to Dempsey's ranch for the mules he had sold Butschy and Clark, taking with him the money they had paid. Nine days later, he was still not back. With each passing day, the trust behind that ordinary errand looked more and more misplaced.” The first sentence carries the transaction and journey in one current; the second lets elapsed time interrupt it; the third changes the social meaning without declaring Tiebolt dishonest. Prefer this accumulation to atomized transaction facts, bureaucratic explanation, or a conspicuous metaphor announcing the accusation.
+
 ### Failure modes
 
 - Narrator performance: dry asides, conspicuous punchlines, repeated clipped reversals, or sentences designed to advertise intelligence.
@@ -94,6 +104,8 @@ The following examples establish the method. They are voice exemplars, not autom
 - Uniform gravity that denies pleasure, culture, and temporary ease.
 - Hooks at every beat or quiet chapters that extinguish every active desire.
 - Repeated aphoristic closure or isolated one-sentence emphasis.
+- Choppy exposition that atomizes a continuous action into short factual units and then supplies its meaning as an abstract conclusion.
+- Bureaucratic explanation or conspicuous metaphor used in place of gradually changing human judgment.
 
 ## Dialogue
 

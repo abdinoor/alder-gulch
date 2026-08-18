@@ -28,4 +28,6 @@ Part cover pages are Markdown files with `document_type: "part"`, `part_number`,
 
 Markdown handling is intentionally conservative. A single `#` heading can supply a chapter title; `##` and deeper headings become in-text subheads. Lines containing only `***`, `---`, or `* * *` become centered scene breaks. YAML frontmatter is omitted.
 
+Body prose, including first paragraphs and configured back matter, is fully justified. Headings, title-page text, epigraphs, attributions, and scene breaks retain their purpose-specific alignment.
+
 When `back_matter_file` names a project-relative Markdown file, the builder places its body on a new final page without counting it as a scene or chapter. The file's first-level heading is omitted. Set `back_matter_title` to add an optional displayed heading; leave it empty for unheaded back matter such as back-cover copy.

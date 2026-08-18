@@ -37,7 +37,7 @@ knowledge_state:
   does_not_know:
     - "Whether any aid can reach him"
 arc:
-  current_stage: "Opening pursuit; incapacitated and left barely alive"
+  current_stage: "Found dead after nine days, identified through Baume's recognition of the borrowed knife, and buried above Nevada City"
   must_not_display_yet:
     - "Knowledge of the exact criminal associations later alleged against Ives"
 ---

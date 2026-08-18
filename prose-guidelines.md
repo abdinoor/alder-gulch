@@ -8,6 +8,13 @@
 
 Write with documentary restraint: concrete physical detail, spare explanation, and no omniscient declaration that justice has been done. Preserve uncertainty wherever the historical record is uncertain.
 
+## Sentence movement
+
+- Build flow through connected causality and accumulating human pressure. Let action, circumstance, and consequence move through the paragraph instead of dividing a continuous thought into flat factual units.
+- Allow an ordinary act to change meaning as time, response, or new information bears upon it. Prefer that gradual revaluation to an explanatory label imposed afterward.
+- Avoid bureaucratic abstractions such as “the simplest explanation” when the prose can dramatize trust, suspicion, obligation, fear, or doubt forming among particular people.
+- Do not repair choppy prose with ornamental metaphor or a quotable conclusion. Grace should come from cadence, proportion, and the relationship between sentences.
+
 ## Dramatic method
 
 - Let facts change meaning as new information arrives; never manufacture uncertainty or lie to the reader.

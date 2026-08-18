@@ -10,7 +10,7 @@ import sys
 from collections import OrderedDict
 from pathlib import Path
 
-from reportlab.lib.enums import TA_CENTER
+from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
 from reportlab.lib.pagesizes import inch
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.colors import black
@@ -356,17 +356,17 @@ def styles(cfg: dict):
         "attribution": ParagraphStyle("Attribution", parent=base["BodyText"], fontName="Novel-Regular", fontSize=8.5,
                                      leading=12, alignment=TA_CENTER),
         "body_first": ParagraphStyle("BodyFirst", parent=base["BodyText"], fontName="Novel-Regular", fontSize=size,
-                                     leading=leading, alignment=0, firstLineIndent=0, spaceAfter=0,
+                                     leading=leading, alignment=TA_JUSTIFY, firstLineIndent=0, spaceAfter=0,
                                      allowWidows=0, allowOrphans=0),
         "body": ParagraphStyle("Body", parent=base["BodyText"], fontName="Novel-Regular", fontSize=size,
-                               leading=leading, alignment=0, firstLineIndent=0.24*inch, spaceAfter=0,
+                               leading=leading, alignment=TA_JUSTIFY, firstLineIndent=0.24*inch, spaceAfter=0,
                                allowWidows=0, allowOrphans=0),
         "subhead": ParagraphStyle("Subhead", parent=base["Heading2"], fontName="Novel-Bold", fontSize=size,
                                   leading=leading, alignment=TA_CENTER, spaceBefore=leading, spaceAfter=leading/2),
         "break": ParagraphStyle("Break", parent=base["Normal"], fontName="Novel-Regular", fontSize=9,
                                 leading=leading*1.5, alignment=TA_CENTER, spaceBefore=leading/2, spaceAfter=leading/2),
         "back_matter": ParagraphStyle("BackMatter", parent=base["BodyText"], fontName="Novel-Regular",
-                                      fontSize=size, leading=leading, alignment=0, firstLineIndent=0,
+                                      fontSize=size, leading=leading, alignment=TA_JUSTIFY, firstLineIndent=0,
                                       spaceAfter=leading, allowWidows=0, allowOrphans=0),
     }
 
