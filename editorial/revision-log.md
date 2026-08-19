@@ -322,3 +322,15 @@ Append one entry per integrated change. Do not record suggestion-only work here.
 - **Material changes:** Replaced archival explanation of Palmer's transport with bounded physical action; removed the irrelevant observation that the mules were absent from the body; rendered Baume's knife recognition as memory rather than source qualification; removed digressions concerning Tiebolt's intended use of the payment, birthplace, and undocumented records; consolidated the burial into one continuous paragraph; and recast the chapter ending as the questions that lead citizens back to Long John.
 - **Canon/research files updated:** `research/invention-register.md`; scene-index metadata, character canon, timeline, and historical classifications remain unchanged
 - **Unresolved questions:** Palmer's exact handling of the body, the precise burial actions and attendance, whether Tiebolt grasped the vegetation while alive, the relationship among the possible William Clarks, the grave location, and the sequence and participants in the killing remain unresolved.
+
+## 2026-08-19 — Add elapsed time to the Chapter 4 opening
+
+- **Operation ID:** chapter-04-timed-opening-20260819
+- **Status:** Integrated
+- **Approval mode:** review-then-apply; the author approved the proposed opening and directed its integration
+- **Target:** `manuscript/04.01-the-body.md`, scene `04.01`, beat `nine-days`
+- **Source intake:** Author's revision of the Chapter 4 opening in the canonical manuscript, followed by an approved line-level refinement; no separate intake item
+- **Specialists used:** Writer / Prose / Continuity and Integration protocols, applied directly by the Lead
+- **Material changes:** Joined Tiebolt's nine-day disappearance to the chance fall of Palmer's grouse in the opening sentence, removed the repeated elapsed-time statement from the following paragraph, and adjusted the Palmer hunting transition accordingly.
+- **Canon/research files updated:** None; the revision introduces no new event or historical claim.
+- **Unresolved questions:** None introduced.
